@@ -41,5 +41,37 @@
   }
 }
 .contacts-section {
-  padding-left: $section-gutter;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid $border-color-inverse;
+  border-bottom: 1px solid $border-color-inverse;
+  .section-content {
+    flex: 1;
+    padding-left: $section-gutter;
+    li {
+      i {
+        color: $primary;
+        width: 1rem;
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 2rem;
+        text-align: center;
+      }
+      + li {
+        margin-top: 3rem;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .section-image {
+    flex: 1;
+    padding-bottom: 26.7%;
+    align-self: stretch;
+    background-size: cover;
+    background-position: center;
+  }
 }

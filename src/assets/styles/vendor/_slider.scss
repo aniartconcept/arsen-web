@@ -12,6 +12,8 @@
 // .slick-list {}
 .slider-item {
   vertical-align: top;
+  display: inline-flex !important;
+  align-items: stretch;
 }
 .slick-dots {
   ul {

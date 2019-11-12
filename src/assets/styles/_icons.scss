@@ -22,6 +22,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-location:before {
+  content: '\e904';
+}
+.icon-mail:before {
+  content: '\e905';
+}
+.icon-tel:before {
+  content: '\e906';
+}
 
 .icon-youtube:before {
   content: '\e900';
