@@ -1,0 +1,23 @@
+.social-links {
+  position: absolute;
+  top: 25%;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:before {
+    content: '';
+    width: 1px;
+    background-color: $primary;
+    height: 140px;
+    margin-bottom: 2rem;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,39 @@
+@mixin gridLines($color: white) {
+  position: relative;
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    transform: translateX(-25%);
+    width: $lines_size * 2;
+    border: 0;
+    border-style: solid;
+    border-color: $color;
+    pointer-events: none;
+    opacity: 0.3;
+  }
+  &:before {
+    border-left-width: 2px;
+    border-right-width: 1px;
+    transform: translateX(-75%);
+  }
+  &:after {
+    border-left-width: 1.5px;
+    border-right-width: 0.5px;
+  }
+}
+
+@mixin ellipsis($lineHeight: 1.2em, $lineCount: 1) {
+  position: relative;
+  line-height: $lineHeight;
+  height: $lineHeight * $lineCount;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lineCount;
+  overflow: hidden;
+}

@@ -1,0 +1,32 @@
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity $animate_fade_duration;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity $animate_fade_duration;
+}
+
+.page-animate-enter {
+  opacity: 0.01;
+}
+
+.page-animate-enter.page-animate-enter-active {
+  opacity: 1;
+  transition: opacity $animate_fade_duration ease-in;
+}
+
+.page-animate-exit {
+  opacity: 1;
+}
+
+.page-animate-exit.page-animate-exit-active {
+  opacity: 0.01;
+  transition: opacity $animate_fade_duration ease-in;
+}

@@ -1,0 +1,20 @@
+html {
+  font-size: 16px;
+  @include media-breakpoint-up(xxl) {
+    font-size: 20px;
+  }
+}
+body {
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.transition-group {
+  position: relative;
+}
+.page-content {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

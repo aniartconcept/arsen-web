@@ -1,0 +1,17 @@
+@import 'mixins';
+@import 'variables';
+@import 'animations';
+// Vendors
+
+@import 'vendor/bootstrap';
+@import 'vendor/slider';
+
+@import 'icons';
+@import 'common';
+@import 'layout';
+
+@import 'components/header';
+@import 'components/social-links';
+@import 'components/lang-switch';
+
+@import 'pages/home';
