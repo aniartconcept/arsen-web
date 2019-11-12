@@ -46,7 +46,7 @@
   border-top: 1px solid $border-color-inverse;
   border-bottom: 1px solid $border-color-inverse;
   .section-content {
-    flex: 1;
+    flex: 1 1 50%;
     padding-left: $section-gutter;
     li {
       i {
@@ -68,7 +68,7 @@
     }
   }
   .section-image {
-    flex: 1;
+    flex: 1 1 50%;
     padding-bottom: 26.7%;
     align-self: stretch;
     background-size: cover;
