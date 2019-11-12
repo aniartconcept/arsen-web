@@ -3,6 +3,7 @@ import React from 'react';
 import HeroSection from './Home/HeroSection';
 import UpcomingConcertsSection from './Home/UpcomingConcertsSection';
 import HighlightsSection from './Home/HighlightsSection';
+import ContactsSection from './Home/ContactsSection';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <UpcomingConcertsSection />
       <HighlightsSection />
+      <ContactsSection />
     </div>
   );
 };

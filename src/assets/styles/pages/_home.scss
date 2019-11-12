@@ -22,6 +22,7 @@
     }
   }
 }
+
 .highlights-section,
 .upcoming-concerts-section {
   padding-left: $section-gutter;
@@ -39,9 +40,6 @@
     }
   }
 }
-// .highlights-section {
-//   padding-left: $section-gutter;
-//   .slider-container {
-//     flex: 1;
-//     min-width: 0;}
-// }
+.contacts-section {
+  padding-left: $section-gutter;
+}
