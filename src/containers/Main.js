@@ -7,6 +7,7 @@ import Home from 'pages/Home';
 import Biography from 'pages/Biography';
 import Gallery from 'pages/Gallery';
 import Recording from 'pages/Recording';
+import Footer from 'components/Footer';
 
 const Main = ({ location }) => {
   return (
@@ -19,6 +20,7 @@ const Main = ({ location }) => {
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/recording" component={Recording} />
           </Switch>
+          <Footer></Footer>
         </div>
       </CSSTransition>
     </TransitionGroup>

@@ -6,12 +6,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1.1rem;
   &:before {
     content: '';
     width: 1px;
     background-color: $primary;
     height: 140px;
     margin-bottom: 2rem;
+  }
+  i {
+    display: block;
   }
   li {
     margin-bottom: 1rem;

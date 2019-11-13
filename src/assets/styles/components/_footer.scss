@@ -1,0 +1,18 @@
+.page-footer {
+  height: 5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  .social-links {
+    position: static;
+    flex-direction: row;
+    li {
+      margin: 0 0.5rem;
+    }
+    &:before {
+      display: none;
+    }
+  }
+}
