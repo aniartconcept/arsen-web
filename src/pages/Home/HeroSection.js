@@ -8,7 +8,7 @@ const HeroSection = () => {
   const letters = t('HOME_HERO_CAPTION').split('');
 
   return (
-    <section className="home-hero-section">
+    <section className="section-hero home-section-hero">
       <LangSwitch />
       <div className="section-caption">
         {letters.map((l, i) => (

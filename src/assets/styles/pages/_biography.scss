@@ -1,0 +1,163 @@
+.bio-section-hero {
+  justify-content: flex-start;
+
+  .section-caption {
+    max-width: 25%;
+    margin-left: 8.59%;
+    h1 {
+      font-size: 3.85vw;
+    }
+  }
+  .section-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 46.07%;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.bio-items-section {
+  @include gridLines(black);
+  padding: 0 2.5rem 9rem;
+  .bio-items {
+    border-left: 1px solid $primary;
+    border-right: 1px solid $primary;
+  }
+}
+.bio-item {
+  display: flex;
+  align-items: center;
+  padding-top: 9rem;
+  position: relative;
+  padding-left: 5rem;
+  &.item-inverse {
+    padding-left: 0;
+    padding-right: 5rem;
+    .item-number {
+      left: auto;
+      right: 0;
+      transform: translateX(50%) rotate(-90deg);
+    }
+    .item-title {
+      right: 5rem;
+      left: auto;
+    }
+    .item-content {
+      background-color: #fff;
+      z-index: 10;
+      position: relative;
+      padding: 2rem 0 2rem;
+      margin-left: $lines_size + 2;
+      p {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .item-image-wrapper {
+      width: 37.93vw;
+    }
+  }
+
+  .item-number {
+    position: absolute;
+    top: 6.2rem;
+    left: 0;
+    transform: translateX(-50%) rotate(-90deg);
+    padding: 0 1rem;
+    background-color: #fff;
+
+    font-size: 3rem;
+    color: $primary;
+  }
+  .item-title {
+    top: 6.2rem;
+    left: 5rem;
+    font-size: 3.7rem;
+    line-height: 1;
+    position: absolute;
+    text-transform: uppercase;
+    color: $primary;
+    background-color: #fff;
+    z-index: 16;
+  }
+  .item-content-wrapper {
+    flex: 1;
+  }
+  .item-content {
+    font-size: 1.1rem;
+    background-color: #fff;
+
+    p {
+      max-width: 23.25rem;
+      margin: 0;
+      + p {
+        margin-top: 2em;
+      }
+    }
+  }
+  .item-image-wrapper {
+    margin-right: -2.5rem;
+    width: 53.93vw;
+    padding-right: 2.5rem;
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 40%;
+      height: 40%;
+      background-color: $primary;
+    }
+
+    &.top-right {
+      margin-right: 0;
+      padding-right: 0;
+      padding-left: 2.5rem;
+      margin-left: -2.5rem;
+      &::before {
+        width: 85%;
+        height: 30%;
+        top: -2.5rem;
+        right: -2.5rem;
+      }
+    }
+    &.top-left {
+      &::before {
+        top: -2.5rem;
+        left: -2.5rem;
+      }
+    }
+    &.bottom-left {
+      &::before {
+        bottom: -2.5rem;
+        left: -2.5rem;
+      }
+    }
+  }
+
+  .item-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+  }
+}
+.educations {
+  font-size: 1.1rem;
+  display: grid;
+  font-weight: 300;
+  grid-template-columns: 1fr 1fr;
+  .item-year {
+    font-weight: 700;
+    color: $primary;
+    margin-bottom: 0.5rem;
+  }
+  li {
+    margin-top: 1.5rem;
+  }
+}

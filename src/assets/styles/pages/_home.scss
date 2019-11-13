@@ -1,15 +1,8 @@
-.home-hero-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+.home-section-hero {
   background-image: url('../../img/bg-hero-home@2x.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-color: $body-bg;
-  @include gridLines();
   .section-caption {
     width: $lines_size * 5;
     height: $lines_size * 4;

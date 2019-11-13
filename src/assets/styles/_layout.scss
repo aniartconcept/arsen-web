@@ -1,7 +1,8 @@
 html {
   font-size: 16px;
-  @include media-breakpoint-up(xxl) {
-    font-size: 20px;
+  // font-size: 1.041vw;
+  @include media-breakpoint-up(md) {
+    font-size: 1.041vw;
   }
 }
 body {

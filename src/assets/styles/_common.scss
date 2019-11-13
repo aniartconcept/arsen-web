@@ -17,6 +17,27 @@ section {
   overflow: hidden;
   position: relative;
 }
+.section-hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: $body-bg;
+  @include gridLines();
+  .section-title {
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 100%;
+      margin-right: 1rem;
+      width: 50vh;
+      top: 50%;
+      border-top: 1px solid $primary;
+    }
+  }
+}
 .section-light {
   background-color: $bg-light;
   color: $color-dark;
@@ -26,7 +47,7 @@ section {
   left: 2.5rem;
   top: 50%;
   font-size: 1.25rem;
-  transform: rotate(-90deg) translateY(-100%) translateX(-50%);
+  transform: rotate(-90deg) translateY(-50%) translateX(-50%);
   transform-origin: 0% 0;
   color: $primary;
 }
