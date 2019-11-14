@@ -1,17 +1,39 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import HeroSection from './Gallery/HeroSection';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import { animateScroll as scroll } from 'react-scroll';
 
-const Gallery = () => {
+import Videos from './Gallery/Videos';
+import Recording from './Gallery/Recording';
+import Media from './Gallery/Media';
+import Events from './Gallery/Events';
+import GalleryNav from './Gallery/GalleryNav';
+
+const Gallery = ({ history }) => {
+  useEffect(() => {
+    const unlisten = history.listen(() => {
+      if (history.location.pathname.includes('/gallery')) {
+        scroll.scrollTo(window.innerHeight);
+      }
+    });
+    return () => {
+      unlisten();
+    };
+  }, [history]);
+
   return (
-    <div>
-      Gallery
-      <br />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. At architecto non aut voluptatum nam cumque quos
-      inventore natus illo nihil assumenda rerum pariatur aliquid sapiente, dolores aspernatur eligendi delectus modi
-      laudantium et consequuntur qui. Asperiores itaque deserunt sint nam sunt aliquam impedit odio cupiditate culpa
-      labore, veniam harum eligendi nostrum corporis deleniti quod cumque sequi repellat commodi reprehenderit quo in
-      sed? Eaque repellendus quia obcaecati a iste voluptate mollitia vel ducimus incidunt. Ex, repellat quae omnis
-      molestias impedit repudiandae eos et aut in dolorum, ipsa voluptate laborum nostrum? Eum voluptates dolores hic
-      debitis vel numquam maiores laudantium voluptate nostrum voluptatibus?
+    <div className="gallery-page-content">
+      <HeroSection />
+      <GalleryNav />
+      <div className="gallery-content-items">
+        <Switch>
+          <Route exact path="/gallery/videos" component={Videos} />
+          <Route exact path="/gallery/recording" component={Recording} />
+          <Route exact path="/gallery/media" component={Media} />
+          <Route exact path="/gallery/events" component={Events} />
+          <Redirect to="/gallery/videos" />
+        </Switch>
+      </div>
     </div>
   );
 };

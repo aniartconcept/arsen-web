@@ -2,9 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 import data from 'db/highlights-db';
-import i18n from 'locale/i18n';
 import { chunk } from 'services/helpers';
-import { formatDate } from 'services/formatDate';
+import ArticleMedia from 'components/ArticleMedia';
 
 const slides = chunk(data, 3);
 
@@ -32,26 +31,9 @@ const HighlightsSection = () => {
       <div className="slider-container">
         <Slider className="concerts-slider" {...settings}>
           {slides.map((slide, i) => (
-            <div className="slider-item " key={i}>
+            <div className="slider-item" key={i}>
               {slide.map((item, index) => (
-                <a
-                  key={index}
-                  href={item.url}
-                  target="_blank"
-                  className="slide-article media-article"
-                  rel="noopener noreferrer"
-                >
-                  <h5 className="article-title">
-                    <span>{item.title[i18n.language]}</span>
-                  </h5>
-                  <div className="article-thumb">
-                    <img src={process.env.PUBLIC_URL + item.thumb} alt="" />
-                  </div>
-                  <div className="article-body">
-                    <p className="article-desc">{item.desc[i18n.language]}</p>
-                    {!!item.date && <span className="article-date">{formatDate(item.date)}</span>}
-                  </div>
-                </a>
+                <ArticleMedia key={index} data={item} />
               ))}
             </div>
           ))}

@@ -6,6 +6,7 @@
   z-index: 200;
   background: linear-gradient(rgba(black, 1), rgba(black, 0));
 }
+
 .header-container {
   display: flex;
   padding: 0 2.5rem;
@@ -13,13 +14,18 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  z-index: 22;
+  z-index: 222;
   h1 {
     color: $primary;
     font-size: 1rem;
     margin: 0;
+    a {
+      transition: color $transition_duration;
+      text-decoration: none;
+    }
   }
 }
+
 .header-menu-toggle {
   transition: all $animate_fade_duration;
   color: $primary;
@@ -96,5 +102,10 @@
     font-size: 1.1rem;
     margin: 1.5rem 0;
     color: $nav-link-color;
+    transition: color $transition_duration;
+    &:hover,
+    &.active {
+      color: $primary;
+    }
   }
 }

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 
 import { useTranslation } from 'react-i18next';
@@ -10,12 +10,19 @@ import SocialLinks from './SocialLinks';
 const Header = () => {
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
+  useEffect(() => {
+    if (show) {
+      document.body.classList.add('menu-opened');
+    } else {
+      document.body.classList.remove('menu-opened');
+    }
+  }, [show]);
 
   return (
-    <header className="page-header">
+    <header className={`page-header`}>
       <div className="header-container">
         <h1>
-          <Link className="nav-link" to="/" onClick={() => setShow(false)}>
+          <Link to="/" onClick={() => setShow(false)}>
             Arsen Babajanyan
           </Link>
         </h1>
@@ -26,24 +33,24 @@ const Header = () => {
           <LangSwitch />
           <ul className="header-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/" onClick={() => setShow(false)}>
+              <NavLink className="nav-link" to="/" onClick={() => setShow(false)} exact>
                 {t('HEADER_HOME')}
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/biography" onClick={() => setShow(false)}>
-                Biography
-              </Link>
+              <NavLink className="nav-link" to="/biography" onClick={() => setShow(false)}>
+                {t('BIOGRAPHY')}
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/gallery" onClick={() => setShow(false)}>
-                Gallery
-              </Link>
+              <NavLink className="nav-link" to="/gallery" onClick={() => setShow(false)}>
+                {t('GALLERY')}
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/recording" onClick={() => setShow(false)}>
+              <NavLink className="nav-link" to="/recording" onClick={() => setShow(false)}>
                 Recording
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <SocialLinks />

@@ -24,5 +24,9 @@
   a {
     color: inherit;
     text-decoration: none;
+    transition: color $transition_duration;
+    &:hover {
+      color: $primary;
+    }
   }
 }

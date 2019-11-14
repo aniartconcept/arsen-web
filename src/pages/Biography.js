@@ -8,7 +8,6 @@ import Image2 from 'assets/img/bio/bio-3@2x.jpg';
 import Image3 from 'assets/img/bio/bio-4@2x.jpg';
 import Image4 from 'assets/img/bio/bio-5@2x.jpg';
 import Image5 from 'assets/img/bio/bio-6@2x.jpg';
-import { chunk } from 'services/helpers';
 
 const Biography = () => {
   const lng = i18n.language;
