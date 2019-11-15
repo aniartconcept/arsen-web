@@ -23,12 +23,12 @@ const Header = () => {
       <div className="header-container">
         <h1>
           <Link to="/" onClick={() => setShow(false)}>
-            Arsen Babajanyan
+            {t('ARSEN_BABAJANYAN')}
           </Link>
         </h1>
         <button className={`header-menu-toggle unstyled ${show ? 'in' : ''}`} onClick={() => setShow(!show)} />
       </div>
-      <CSSTransition in={show} timeout={1000} unmountOnExit classNames="fade">
+      <CSSTransition in={show} timeout={{ enter: 2000, exit: 2000 }} unmountOnExit classNames="fade">
         <div className="header-menu">
           <LangSwitch />
           <ul className="header-nav">
@@ -48,8 +48,8 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/recording" onClick={() => setShow(false)}>
-                Recording
+              <NavLink className="nav-link" to="/contacts" onClick={() => setShow(false)}>
+                {t('CONTACTS')}
               </NavLink>
             </li>
           </ul>

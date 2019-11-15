@@ -49,8 +49,9 @@
       background-color: white;
       opacity: 0.3;
       left: 50%;
-      margin-left: 1px;
+      margin-left: -1px;
       min-height: 1rem;
+      transform: translateZ(0);
     }
     &:before {
       position: absolute;
