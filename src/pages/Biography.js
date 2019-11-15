@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import HeroSection from './Biography/HeroSection';
 import i18n from 'locale/i18n';
 import data from 'db/bio-db';
@@ -10,6 +10,9 @@ import Image4 from 'assets/img/bio/bio-5@2x.jpg';
 import Image5 from 'assets/img/bio/bio-6@2x.jpg';
 
 const Biography = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const lng = i18n.language;
   return (
     <div className="home-page-content">
