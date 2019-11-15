@@ -28,6 +28,7 @@
   margin-top: -$header-height;
   pointer-events: none;
   transition: opacity 0.5s;
+  background: linear-gradient(rgba(black, 0) 50%, rgba(black, 1));
 
   .menu-opened & {
     opacity: 0;
@@ -81,6 +82,7 @@
 
   .slide-article {
     width: 100%;
+    padding-bottom: 0;
     &:nth-child(3n) {
       border-right: 1px solid $border-color-inverse;
     }

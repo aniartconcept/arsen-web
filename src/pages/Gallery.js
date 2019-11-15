@@ -25,6 +25,7 @@ const Gallery = ({ history }) => {
     <div className="gallery-page-content">
       <HeroSection />
       <GalleryNav />
+
       <div className="gallery-content-items">
         <Switch>
           <Route exact path="/gallery/videos" component={Videos} />
