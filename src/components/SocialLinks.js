@@ -6,6 +6,7 @@ const SocialLinks = () => {
       <li>
         <a href="https://www.youtube.com/channel/UCi-4vpJzx9gi1ERtj_EmfaA" target="_blank" rel="noopener noreferrer">
           <i className="icon icon-twitter"></i>
+          <span className="sr-only">dedede</span>
         </a>
       </li>
       <li>
