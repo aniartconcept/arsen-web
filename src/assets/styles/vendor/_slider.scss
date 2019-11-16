@@ -78,8 +78,21 @@
   padding: 6rem 0 4rem;
   border-left: 1px solid $border-color-inverse;
   &:last-child {
-    border-right: 1px solid $border-color-inverse;
+    box-shadow: 1px 0 0 $border-color-inverse;
   }
+  &:nth-child(3n-2) {
+    border-width: 2px;
+    &:last-child {
+      box-shadow: 2px 0 0 $border-color-inverse;
+    }
+  }
+  &:nth-child(3n-1) {
+    border-width: 2px;
+    &:last-child {
+      box-shadow: 1px 0 0 $border-color-inverse;
+    }
+  }
+
   &:focus,
   &:active,
   &:hover {
@@ -194,9 +207,9 @@
 
 .section-light {
   .slide-article {
-    border-left: 1px solid $border-color;
+    border-color: $border-color;
     &:last-child {
-      border-right: 1px solid $border-color;
+      border-color: $border-color;
     }
   }
   .slick-dots {

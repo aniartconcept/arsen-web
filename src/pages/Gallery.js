@@ -13,7 +13,8 @@ const Gallery = ({ history }) => {
   useEffect(() => {
     const unlisten = history.listen(() => {
       if (history.location.pathname.includes('/gallery')) {
-        scroll.scrollTo(window.innerHeight);
+        const header = document.querySelector('.page-header');
+        scroll.scrollTo(window.innerHeight - header.offsetHeight);
       }
     });
     return () => {
@@ -25,7 +26,6 @@ const Gallery = ({ history }) => {
     <div className="gallery-page-content">
       <HeroSection />
       <GalleryNav />
-
       <div className="gallery-content-items">
         <Switch>
           <Route exact path="/gallery/videos" component={Videos} />

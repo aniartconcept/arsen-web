@@ -12,5 +12,11 @@
   "BIOGRAPHY": "Biography",
   "BIO_HERO_TITLE": "ARSEN <br /> BABAJANYAN",
   "BIO_HERO_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscingia elit, sed do eiusmod tempor incididunt ut labore etaja dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-  "GALLERY": "Gallery"
+  "GALLERY": "Gallery",
+  "ORCHESTRA": "Orchestra",
+  "ENSAMBLE": "Ensamble",
+  "CHAMBER": "Chamber",
+  "CYCLES": "Cycles",
+  "SOLO": "Solo",
+  "OTHER": "Other"
 }

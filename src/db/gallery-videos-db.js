@@ -1,6 +1,6 @@
 export default [
   {
-    thumb: '/gallery/highlights/1.jpg',
+    thumb: '/gallery/highlights/3.jpg',
     title: { en: 'goodbye, bird', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
     desc: {
       en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
@@ -10,7 +10,7 @@ export default [
     url: 'https://fb.com'
   },
   {
-    thumb: '/gallery/highlights/2.jpg',
+    thumb: '/gallery/highlights/1.jpg',
     title: { en: 'Die Kreuzigung Christi', hy: 'Die Kreuzigung Christi', ru: 'Die Kreuzigung Christi' },
     desc: {
       en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
@@ -20,7 +20,7 @@ export default [
     url: 'https://fb.com'
   },
   {
-    thumb: '/gallery/highlights/3.jpg',
+    thumb: '/gallery/highlights/2.jpg',
     title: { en: 'Lorem ipsum', hy: 'arm Lorem ipsum', ru: 'rus Lorem ipsum' },
     desc: { en: '', hy: '', ru: '' },
     url: 'https://fb.com'

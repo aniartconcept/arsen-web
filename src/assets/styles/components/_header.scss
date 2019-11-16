@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 200;
-  background: linear-gradient(rgba(black, 1) 50%, rgba(black, 0));
+  background: linear-gradient(rgba(black, 1), rgba(black, 0) 95%);
 }
 
 .header-container {
@@ -91,7 +91,31 @@
       opacity: 0.3;
       left: 50%;
       flex: 1;
-      transform: translateZ(0);
+      // transform: translateX(-50%);
+    }
+    &:nth-child(1) {
+      &:after,
+      &:before {
+        width: 2px;
+      }
+    }
+    &:nth-child(2) {
+      &:after,
+      &:before {
+        width: 1.5px;
+      }
+    }
+    &:nth-child(3) {
+      &:after,
+      &:before {
+        width: 1px;
+      }
+    }
+    &:nth-child(4) {
+      &:after,
+      &:before {
+        width: 0.5px;
+      }
     }
   }
   .nav-link {
@@ -103,10 +127,6 @@
     font-size: 1.1rem;
     margin: 1.5rem 0;
     color: $nav-link-color;
-    transition: color $transition_duration;
-    &:hover,
-    &.active {
-      color: $primary;
-    }
+    @include linkHover();
   }
 }

@@ -49,15 +49,38 @@
       background-color: white;
       opacity: 0.3;
       left: 50%;
-      margin-left: -1px;
+      // margin-left: -1px;
       min-height: 1rem;
-      transform: translateZ(0);
     }
     &:before {
       position: absolute;
       height: 110vh;
       bottom: 100%;
       margin-bottom: -1rem;
+    }
+    &:nth-child(1) {
+      &:after,
+      &:before {
+        width: 2px;
+      }
+    }
+    &:nth-child(2) {
+      &:after,
+      &:before {
+        width: 1.5px;
+      }
+    }
+    &:nth-child(3) {
+      &:after,
+      &:before {
+        width: 1px;
+      }
+    }
+    &:nth-child(4) {
+      &:after,
+      &:before {
+        width: 0.5px;
+      }
     }
   }
   .nav-link {
@@ -76,8 +99,7 @@
 }
 
 .gallery-content-container {
-  padding-left: $section-gutter;
-  padding-right: $section-gutter;
+  padding: 1rem $section-gutter;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
@@ -85,7 +107,83 @@
     width: 100%;
     padding-bottom: 0;
     &:nth-child(3n) {
-      border-right: 1px solid $border-color-inverse;
+      box-shadow: 1px 0 0 $border-color-inverse;
+    }
+  }
+}
+
+.recordings-content-container {
+  padding: 1rem $section-gutter 1rem 0;
+  display: flex;
+  align-items: stretch;
+  .types-filter {
+    width: $section-gutter;
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: sticky;
+    top: $header-height;
+    align-self: flex-start;
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      border-left: 1px solid $primary;
+      min-height: 5rem;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      min-height: 8rem;
+    }
+    button {
+      transform: translateX(-50%) rotate(-90deg);
+      @include linkHover();
+      font-size: 1.25rem;
+    }
+  }
+  .recordings {
+    flex: 1;
+    padding-top: 5rem;
+    border-left: 2px solid $border-color-inverse;
+    border-right: 1px solid $border-color-inverse;
+  }
+  .recording-item {
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+    .item-year {
+      display: flex;
+      align-items: center;
+      color: $primary;
+      margin-bottom: 1.5rem;
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        border-top: 1px solid $primary;
+        min-width: 1rem;
+      }
+      &:before {
+        margin-right: 0.5rem;
+      }
+      &:after {
+        flex: 1;
+        margin-left: 0.5rem;
+      }
+    }
+    .item-name {
+      font-size: 1.25rem;
+      padding: 0 1.5rem;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    .item-desc {
+      font-size: 1.2rem;
+      padding: 0 1.5rem;
+      color: $primary;
     }
   }
 }
