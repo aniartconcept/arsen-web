@@ -2,6 +2,7 @@
 @import '~slick-carousel/slick/slick-theme.css';
 .slick-slider {
   position: relative;
+  padding-right: $section-gutter;
   .slick-slide {
     pointer-events: none;
     &.slick-active {
@@ -9,13 +10,17 @@
     }
   }
 }
-// .slick-list {}
+
 .slider-item {
   vertical-align: top;
   display: inline-flex !important;
   align-items: stretch;
 }
 .slick-dots {
+  position: absolute;
+  width: $section-gutter;
+  bottom: 6rem;
+  right: 0;
   ul {
     display: flex;
     align-items: center;
@@ -202,6 +207,9 @@
       background-color: $primary;
       margin-right: 0.5rem;
     }
+    a {
+      text-decoration: none;
+    }
   }
 }
 
@@ -216,6 +224,38 @@
     li {
       .paging-item:before {
         background-color: $border-color;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .slide-article {
+    width: 100%;
+    float: none;
+    padding: 3rem 0;
+    border: 0;
+    box-shadow: none !important;
+    &.media-article .article-title {
+      top: 3rem;
+    }
+    .article-desc {
+      height: auto;
+      &:empty {
+        display: none;
+      }
+    }
+    .article-body {
+      padding: 1rem 0;
+    }
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    width: auto;
+    ul {
+      li {
       }
     }
   }

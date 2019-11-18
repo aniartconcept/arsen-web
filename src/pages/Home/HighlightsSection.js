@@ -5,12 +5,15 @@ import data from 'db/highlights-db';
 import { chunk } from 'services/helpers';
 import ArticleMedia from 'components/ArticleMedia';
 
-const slides = chunk(data, 3);
+import { useWindowSize } from 'services/hooks';
 
 const HighlightsSection = () => {
+  const { isMobile } = useWindowSize();
+  const slides = chunk(data, isMobile ? 1 : 3);
   const { t } = useTranslation();
+
   const settings = {
-    dots: true,
+    dots: !isMobile,
     infinite: false,
     arrows: false,
     speed: 1000,

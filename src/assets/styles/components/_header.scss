@@ -130,3 +130,19 @@
     @include linkHover();
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header-container {
+    padding: 0 15px;
+    height: $header-height-m;
+  }
+  .header-menu {
+    background-size: 180%;
+  }
+  .header-nav {
+    .nav-link {
+      font-size: 0.875rem;
+      width: $lines_size-m;
+    }
+  }
+}

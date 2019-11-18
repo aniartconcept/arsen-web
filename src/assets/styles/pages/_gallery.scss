@@ -187,3 +187,24 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .gallery-content-container {
+    display: block;
+    padding: 1rem;
+  }
+  .gallery-nav {
+    position: static;
+    .nav-link {
+      font-size: 1rem;
+      width: $lines_size-m;
+    }
+  }
+  .recordings-content-container {
+    padding-right: 0;
+    border-right: 0;
+    .types-filter {
+      padding-left: 1.5rem;
+    }
+  }
+}

@@ -1,3 +1,29 @@
+html {
+  font-size: 1.041vw;
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px) {
+  }
+}
+body {
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.transition-group {
+  position: relative;
+}
+.page-content {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .unstyled {
   box-shadow: none;
   background: transparent;
@@ -50,4 +76,10 @@ section {
   transform: rotate(-90deg) translateY(-50%) translateX(-50%);
   transform-origin: 0% 0;
   color: $primary;
+}
+@media screen and (max-width: 767px) {
+  .section-title {
+    left: 1.5rem;
+    font-size: 1rem;
+  }
 }

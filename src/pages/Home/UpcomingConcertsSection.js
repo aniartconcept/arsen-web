@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 import data from 'db/upcoming-concerts-db';
 import i18n from 'locale/i18n';
 import { chunk } from 'services/helpers';
 import { formatDate } from 'services/formatDate';
-
-const slides = chunk(data, 3);
+import { useWindowSize } from 'services/hooks';
 
 const UpcomingConcertsSection = () => {
   const { t } = useTranslation();
+  const { isMobile } = useWindowSize();
+  const slides = chunk(data, isMobile ? 1 : 3);
+
   const settings = {
-    dots: true,
+    dots: !isMobile,
     infinite: false,
     arrows: false,
     speed: 1000,

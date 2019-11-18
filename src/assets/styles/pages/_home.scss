@@ -7,6 +7,7 @@
     width: $lines_size * 5;
     height: $lines_size * 4;
     display: grid;
+    font-size: 1.25rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     span {
       display: flex;
@@ -22,49 +23,14 @@
   .slider-container {
     flex: 1;
     min-width: 0;
-    .slick-slider {
-      padding-right: $section-gutter;
-    }
-    .slick-dots {
-      position: absolute;
-      width: $section-gutter;
-      bottom: 7rem;
-      right: 0;
-    }
   }
 }
-.contacts-section {
-  display: flex;
-  align-items: center;
-  border-top: 1px solid $border-color-inverse;
-  border-bottom: 1px solid $border-color-inverse;
-  .section-content {
-    flex: 1 1 50%;
-    padding-left: $section-gutter;
-    li {
-      i {
-        color: $primary;
-        width: 1rem;
-        font-size: 16px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 2rem;
-        text-align: center;
-      }
-      + li {
-        margin-top: 3rem;
-      }
+@media screen and (max-width: 767px) {
+  .home-section-hero {
+    background-size: 180%;
+    .section-caption {
+      width: $lines_size-m * 5;
+      height: $lines_size-m * 4;
     }
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-  }
-  .section-image {
-    flex: 1 1 50%;
-    padding-bottom: 26.7%;
-    align-self: stretch;
-    background-size: cover;
-    background-position: center;
   }
 }

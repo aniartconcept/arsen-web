@@ -26,6 +26,12 @@
     border-left-width: 1.5px;
     border-right-width: 0.5px;
   }
+  @media screen and (max-width: 767px) {
+    &:before,
+    &:after {
+      width: $lines_size-m * 2;
+    }
+  }
 }
 
 @mixin ellipsis($lineHeight: 1.2em, $lineCount: 1) {

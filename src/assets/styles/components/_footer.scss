@@ -16,3 +16,16 @@
     }
   }
 }
+@media screen and (max-width: 767px) {
+  .page-footer {
+    height: auto;
+    flex-direction: column;
+    padding: 1.5rem;
+    span {
+      margin-top: 1.5rem;
+    }
+    .social-links {
+      order: -1;
+    }
+  }
+}
