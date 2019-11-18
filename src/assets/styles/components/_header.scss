@@ -5,6 +5,10 @@
   width: 100%;
   z-index: 200;
   background: linear-gradient(rgba(black, 1), rgba(black, 0) 95%);
+  transition: background $transition_duration;
+  &.pined {
+    background: linear-gradient(rgba(black, 1), rgba(black, 1) 100%);
+  }
 }
 
 .header-container {
@@ -88,10 +92,10 @@
       display: block;
       width: 1px;
       background-color: white;
-      opacity: 0.3;
+      opacity: 0.2;
       left: 50%;
       flex: 1;
-      // transform: translateX(-50%);
+      transform: translateZ(0);
     }
     &:nth-child(1) {
       &:after,

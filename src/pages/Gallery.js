@@ -32,7 +32,6 @@ const Gallery = ({ history }) => {
           <Route exact path="/gallery/recording" component={Recording} />
           <Route exact path="/gallery/media" component={Media} />
           <Route exact path="/gallery/events" component={Events} />
-          <Redirect to="/gallery/videos" />
         </Switch>
       </div>
     </div>
