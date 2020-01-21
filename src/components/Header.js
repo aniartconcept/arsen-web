@@ -28,7 +28,7 @@ const Header = () => {
         </h1>
         <button className={`header-menu-toggle unstyled ${show ? 'in' : ''}`} onClick={() => setShow(!show)} />
       </div>
-      <CSSTransition in={show} timeout={{ enter: 2000, exit: 2000 }} unmountOnExit classNames="fade">
+      <CSSTransition in={show} timeout={{ enter: 2200, exit: 2200 }} unmountOnExit classNames="fade">
         <div className="header-menu">
           <LangSwitch />
           <ul className="header-nav">
@@ -42,10 +42,32 @@ const Header = () => {
                 {t('BIOGRAPHY')}
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item has-subnav">
               <NavLink className="nav-link" to="/gallery" onClick={() => setShow(false)}>
                 {t('GALLERY')}
               </NavLink>
+              <ul className="header-sub-nav">
+                <li>
+                  <NavLink className="nav-link" to="/gallery/videos" onClick={() => setShow(false)}>
+                    Videos
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="nav-link" to="/gallery/recording" onClick={() => setShow(false)}>
+                    Recording
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="nav-link" to="/gallery/media" onClick={() => setShow(false)}>
+                    Media
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="nav-link" to="/gallery/events" onClick={() => setShow(false)}>
+                    Events
+                  </NavLink>
+                </li>
+              </ul>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contacts" onClick={() => setShow(false)}>

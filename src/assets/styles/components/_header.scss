@@ -82,6 +82,7 @@
   padding: 0;
   margin: 0;
   .nav-item {
+    pointer-events: none;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -94,9 +95,14 @@
       background-color: white;
       opacity: 0.2;
       left: 50%;
+
       flex: 1;
       transform: translateZ(0);
     }
+    &:after {
+      transition: transform 2s linear;
+    }
+
     &:nth-child(1) {
       &:after,
       &:before {
@@ -121,17 +127,78 @@
         width: 0.5px;
       }
     }
+    &:hover {
+      .header-sub-nav {
+        li {
+          opacity: 1;
+          transition: opacity 0.6s linear;
+          &:nth-child(1) {
+            transition-delay: 0s;
+          }
+          &:nth-child(2) {
+            transition-delay: 0.3s;
+          }
+          &:nth-child(3) {
+            transition-delay: 0.6s;
+          }
+          &:nth-child(4) {
+            transition-delay: 0.9s;
+          }
+        }
+      }
+
+      &.has-subnav {
+        &::after {
+          transition-duration: 1s;
+          transform: translateY(10.4rem);
+        }
+      }
+    }
   }
   .nav-link {
+    pointer-events: visible;
     display: block;
     color: inherit;
     text-decoration: none;
     width: $lines_size;
     text-align: center;
     font-size: 1.1rem;
-    margin: 1.5rem 0;
+    padding: 1.5rem 0;
     color: $nav-link-color;
     @include linkHover();
+    &:hover + .header-sub-nav {
+      pointer-events: visible;
+    }
+  }
+  .header-sub-nav {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: 2.05rem;
+    &:hover {
+      pointer-events: visible;
+    }
+    .nav-link {
+      padding: 0;
+      margin: 0 0 1.5rem;
+    }
+
+    li {
+      opacity: 0;
+      transition: opacity 0.6s linear;
+      &:nth-child(4) {
+        transition-delay: 0s;
+      }
+      &:nth-child(3) {
+        transition-delay: 0.3s;
+      }
+      &:nth-child(2) {
+        transition-delay: 0.6s;
+      }
+      &:nth-child(1) {
+        transition-delay: 0.9s;
+      }
+    }
   }
 }
 

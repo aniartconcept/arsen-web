@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 import data from 'db/upcoming-concerts-db';

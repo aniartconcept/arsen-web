@@ -19,7 +19,7 @@ const getKye = ({ pathname, key }) => {
 const Main = ({ location }) => {
   return (
     <TransitionGroup className="transition-group">
-      <CSSTransition key={getKye(location)} timeout={{ enter: 1000, exit: 1000 }} classNames="page-animate">
+      <CSSTransition key={getKye(location)} timeout={{ enter: 800, exit: 800 }} classNames="page-animate">
         <div className="page-content">
           <Switch location={location}>
             <Route path="/gallery" component={Gallery} />

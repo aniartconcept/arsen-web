@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import HeroSection from './Gallery/HeroSection';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 
 import Videos from './Gallery/Videos';
@@ -11,16 +11,11 @@ import GalleryNav from './Gallery/GalleryNav';
 
 const Gallery = ({ history }) => {
   useEffect(() => {
-    const unlisten = history.listen(() => {
-      if (history.location.pathname.includes('/gallery')) {
-        const header = document.querySelector('.page-header');
-        scroll.scrollTo(window.innerHeight - header.offsetHeight);
-      }
-    });
-    return () => {
-      unlisten();
-    };
-  }, [history]);
+    if (history.location.pathname.includes('/gallery/')) {
+      const header = document.querySelector('.page-header');
+      scroll.scrollTo(window.innerHeight - header.offsetHeight);
+    }
+  }, [history.location.pathname]);
 
   return (
     <div className="gallery-page-content">
