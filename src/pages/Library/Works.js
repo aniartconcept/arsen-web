@@ -1,12 +1,13 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import data, { recordingTypes } from 'db/recordings-db';
+import data, { workTypes } from 'db/library-works-db';
 import moment from 'moment';
 import i18n from 'locale/i18n';
 import { useTranslation } from 'react-i18next';
 import { animateScroll as scroll } from 'react-scroll';
-const Recording = () => {
+
+const Works = () => {
   const { t } = useTranslation();
-  const [type, setType] = useState(recordingTypes[0]);
+  const [type, setType] = useState(workTypes[0]);
 
   useEffect(() => {
     const header = document.querySelector('.page-header');
@@ -18,7 +19,7 @@ const Recording = () => {
   return (
     <div className="recordings-content-container">
       <ul className="types-filter">
-        {recordingTypes.map(i => (
+        {workTypes.map(i => (
           <li key={i}>
             <button className={`unstyled ${i === type ? 'active' : ''}`} onClick={() => setType(i)}>
               {t(i)}
@@ -39,4 +40,4 @@ const Recording = () => {
   );
 };
 
-export default Recording;
+export default Works;

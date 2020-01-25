@@ -43,27 +43,27 @@ const Header = () => {
               </NavLink>
             </li>
             <li className="nav-item has-subnav">
-              <NavLink className="nav-link" to="/gallery" onClick={() => setShow(false)}>
-                {t('GALLERY')}
+              <NavLink className="nav-link" to="/library" onClick={() => setShow(false)}>
+                {t('LIBRARY')}
               </NavLink>
               <ul className="header-sub-nav">
                 <li>
-                  <NavLink className="nav-link" to="/gallery/videos" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/recordings" onClick={() => setShow(false)}>
                     {t('RECORDINGS')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/gallery/recording" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/works" onClick={() => setShow(false)}>
                     {t('WORKS')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/gallery/media" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/media" onClick={() => setShow(false)}>
                     {t('MEDIA')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/gallery/events" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/events" onClick={() => setShow(false)}>
                     {t('EVENTS')}
                   </NavLink>
                 </li>

@@ -19,6 +19,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-location:before {
   content: '\e904';
 }
@@ -40,4 +41,11 @@
 }
 .icon-twitter:before {
   content: '\e903';
+}
+
+.icon-video:before {
+  content: '\f16a';
+}
+.icon-audio:before {
+  content: '\f1be';
 }

@@ -5,9 +5,8 @@ import SocialLinks from 'components/SocialLinks';
 const HeroSection = () => {
   const { t } = useTranslation();
   return (
-    <section className="section-hero gellery-section-hero">
-      <div className="section-title">{t('GALLERY')}</div>
-
+    <section className="section-hero library-section-hero">
+      <div className="section-title">{t('LIBRARY')}</div>
       <SocialLinks />
     </section>
   );

@@ -1,14 +1,14 @@
 import React, { useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
-const GalleryNav = () => {
-  const galleryNav = useRef(null);
+const LibraryNav = () => {
+  const libraryNav = useRef(null);
   const { t } = useTranslation();
-    useEffect(() => {
+  useEffect(() => {
     const setClass = e => {
       const header = document.querySelector('.page-header');
-      const { offsetTop, offsetHeight } = galleryNav.current;
+      const { offsetTop, offsetHeight } = libraryNav.current;
       if (offsetTop - window.innerHeight + offsetHeight > 0) {
         header.classList.add('pined');
       } else {
@@ -21,29 +21,29 @@ const GalleryNav = () => {
     };
   }, []);
   return (
-    <ul className="gallery-nav" ref={galleryNav}>
+    <ul className="library-nav" ref={libraryNav}>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/gallery/videos">
-            {t('RECORDINGS')}
+        <NavLink className="nav-link" to="/library/recordings">
+          {t('RECORDINGS')}
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/gallery/recording">
-            {t('WORKS')}
+        <NavLink className="nav-link" to="/library/works">
+          {t('WORKS')}
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/gallery/media">
-            {t('MEDIA')}
+        <NavLink className="nav-link" to="/library/media">
+          {t('MEDIA')}
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/gallery/events">
-            {t('EVENTS')}
+        <NavLink className="nav-link" to="/library/events">
+          {t('EVENTS')}
         </NavLink>
       </li>
     </ul>
   );
 };
 
-export default GalleryNav;
+export default LibraryNav;

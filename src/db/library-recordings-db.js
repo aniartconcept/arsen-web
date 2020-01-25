@@ -1,9 +1,9 @@
-export const recordingTypes = ['ORCHESTRA', 'ENSAMBLE', 'CHAMBER', 'CYCLES', 'SOLO', 'OTHER'];
 export default [
   {
     id: 1,
-    type: 'ORCHESTRA',
+    type: 'VIDEO',
     date: '2019-04-16',
+    url: 'https://www.youtube.com/watch?v=Q-tqmV2BsVc',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -17,8 +17,9 @@ export default [
   },
   {
     id: 2,
-    type: 'ENSAMBLE',
+    type: 'VIDEO',
     date: '2019-04-17',
+    url: 'https://www.youtube.com/watch?v=Q-tqmV2BsVc',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -32,8 +33,9 @@ export default [
   },
   {
     id: 3,
-    type: 'CHAMBER',
+    type: 'VIDEO',
     date: '2019-04-18',
+    url: 'https://www.youtube.com/watch?v=Q-tqmV2BsVc',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -47,8 +49,9 @@ export default [
   },
   {
     id: 4,
-    type: 'CYCLES',
+    type: 'VIDEO',
     date: '2019-05-01',
+    url: 'https://www.youtube.com/watch?v=Q-tqmV2BsVc',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -62,8 +65,9 @@ export default [
   },
   {
     id: 5,
-    type: 'SOLO',
+    type: 'VIDEO',
     date: '2019-05-16',
+    url: 'https://www.youtube.com/watch?v=Q-tqmV2BsVc',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -77,8 +81,9 @@ export default [
   },
   {
     id: 6,
-    type: 'ORCHESTRA',
+    type: 'VIDEO',
     date: '2019-06-26',
+    url: 'https://www.youtube.com/watch?v=Q-tqmV2BsVc',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -92,8 +97,9 @@ export default [
   },
   {
     id: 7,
-    type: 'OTHER',
+    type: 'AUDIO',
     date: '2019-04-16',
+    url: 'https://soundcloud.com/arsen-babajanyan-3/arsen-babajanyan-to-to-unknown-soldier-after-p-celan',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
@@ -107,113 +113,9 @@ export default [
   },
   {
     id: 8,
-    type: 'OTHER',
+    type: 'AUDIO',
     date: '2019-08-20',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 9,
-    type: 'ORCHESTRA',
-    date: '2019-04-16',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 10,
-    type: 'SOLO',
-    date: '2019-04-16',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 11,
-    type: 'ORCHESTRA',
-    date: '2019-04-16',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 12,
-    type: 'ORCHESTRA',
-    date: '2019-04-16',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 13,
-    type: 'ENSAMBLE',
-    date: '2019-04-16',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 14,
-    type: 'ORCHESTRA',
-    date: '2019-04-16',
-    name: {
-      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
-      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
-    },
-    desc: {
-      en: 'For Big Orchestra',
-      hy: 'Arm For Big Orchestra',
-      ru: 'Rus For Big Orchestra'
-    }
-  },
-  {
-    id: 15,
-    type: 'OTHER',
-    date: '2019-04-16',
+    url: 'https://soundcloud.com/arsen-babajanyan-3/arsen-babajanyan-to-to-unknown-soldier-after-p-celan',
     name: {
       en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
       hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',

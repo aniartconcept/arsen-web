@@ -25,7 +25,7 @@ const ContactsSection = () => {
       </div>
       <div
         className="section-image"
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/gallery/contacts/1.jpg)` }}
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/library/contacts/1.jpg)` }}
       ></div>
     </section>
   );
