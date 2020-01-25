@@ -9,6 +9,7 @@
     display: grid;
     font-size: 1.25rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
     span {
       display: flex;
       align-items: center;

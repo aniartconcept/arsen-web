@@ -8,11 +8,14 @@ const HeroSection = () => {
   const { t } = useTranslation();
   const { isMobile } = useWindowSize();
   const letters = t('HOME_HERO_CAPTION').split('');
-
+  const openHeader = () => {
+    const toggler = document.querySelector('.header-menu-toggle');
+    toggler.click();
+  };
   return (
     <section className="section-hero home-section-hero">
       {!isMobile && <LangSwitch />}
-      <div className="section-caption">
+      <div className="section-caption" onClick={openHeader}>
         {letters.map((l, i) => (
           <span key={i}>{l}</span>
         ))}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 
@@ -18,11 +18,15 @@ const Header = () => {
     }
   }, [show]);
 
+  const closeMenu = useCallback(() => {
+    setShow(false);
+  }, []);
+
   return (
     <header className={`page-header`}>
       <div className="header-container">
         <h1>
-          <Link to="/" onClick={() => setShow(false)}>
+          <Link to="/" onClick={closeMenu}>
             {t('ARSEN_BABAJANYAN')}
           </Link>
         </h1>
@@ -30,47 +34,48 @@ const Header = () => {
       </div>
       <CSSTransition in={show} timeout={{ enter: 2200, exit: 2200 }} unmountOnExit classNames="fade">
         <div className="header-menu">
+          <div className="header-menu-backdrop" onClick={closeMenu} />
           <LangSwitch />
           <ul className="header-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/" onClick={() => setShow(false)} exact>
+              <NavLink className="nav-link" to="/" onClick={closeMenu} exact>
                 {t('HEADER_HOME')}
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/biography" onClick={() => setShow(false)}>
+              <NavLink className="nav-link" to="/biography" onClick={closeMenu}>
                 {t('BIOGRAPHY')}
               </NavLink>
             </li>
             <li className="nav-item has-subnav">
-              <NavLink className="nav-link" to="/library" onClick={() => setShow(false)}>
+              <NavLink className="nav-link" to="/library" onClick={closeMenu}>
                 {t('LIBRARY')}
               </NavLink>
               <ul className="header-sub-nav">
                 <li>
-                  <NavLink className="nav-link" to="/library/recordings" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/recordings" onClick={closeMenu}>
                     {t('RECORDINGS')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/library/works" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/works" onClick={closeMenu}>
                     {t('WORKS')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/library/media" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/media" onClick={closeMenu}>
                     {t('MEDIA')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="nav-link" to="/library/events" onClick={() => setShow(false)}>
+                  <NavLink className="nav-link" to="/library/events" onClick={closeMenu}>
                     {t('EVENTS')}
                   </NavLink>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contacts" onClick={() => setShow(false)}>
+              <NavLink className="nav-link" to="/contacts" onClick={closeMenu}>
                 {t('CONTACTS')}
               </NavLink>
             </li>
