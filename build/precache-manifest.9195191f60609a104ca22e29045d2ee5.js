@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3653274d4bc8a125eb97ee69649dbac8",
+    "revision": "6d915bdaf3ad2d4044b6d40ed9dc90e9",
     "url": "/index.html"
   },
   {
-    "revision": "476a502d9e574a76a75f",
-    "url": "/static/css/2.18585a14.chunk.css"
+    "revision": "343cb14031b90a6f579f",
+    "url": "/static/css/2.cdaf15d1.chunk.css"
   },
   {
-    "revision": "f2c225e04e62ecd23dcf",
-    "url": "/static/css/main.52996eed.chunk.css"
+    "revision": "6ee812e4c21b7d677b82",
+    "url": "/static/css/main.34cb26ef.chunk.css"
   },
   {
-    "revision": "476a502d9e574a76a75f",
-    "url": "/static/js/2.1f0545c7.chunk.js"
+    "revision": "343cb14031b90a6f579f",
+    "url": "/static/js/2.b58ab10f.chunk.js"
   },
   {
-    "revision": "f2c225e04e62ecd23dcf",
-    "url": "/static/js/main.a4caf3aa.chunk.js"
+    "revision": "6ee812e4c21b7d677b82",
+    "url": "/static/js/main.1bff1e76.chunk.js"
   },
   {
     "revision": "84eabb17b451f3b1dc44",
     "url": "/static/js/runtime-main.2b93b57f.js"
   },
   {
-    "revision": "33c8c03c1ce74163e981f12aaf003df6",
-    "url": "/static/media/bg-hero-gallery@2x.33c8c03c.jpg"
-  },
-  {
     "revision": "502cb8e75fff78637dca6045efd5b4fc",
     "url": "/static/media/bg-hero-home@2x.502cb8e7.jpg"
+  },
+  {
+    "revision": "33c8c03c1ce74163e981f12aaf003df6",
+    "url": "/static/media/bg-hero-library@2x.33c8c03c.jpg"
   },
   {
     "revision": "f5caf6b84697041330912476217a1859",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bio-6@2x.9e82d58d.jpg"
   },
   {
-    "revision": "959e2995d1239079d35025ea5d23fc18",
-    "url": "/static/media/fonticons.959e2995.woff"
+    "revision": "4eae9e83f69a77dfec12f7bd0e8c8fe8",
+    "url": "/static/media/fonticons.4eae9e83.woff2"
   },
   {
-    "revision": "e34e18c231a1bfd9ef10d7dfb7094e37",
-    "url": "/static/media/fonticons.e34e18c2.woff2"
+    "revision": "9175c0b558cf65b3c2ce9a7aacf07374",
+    "url": "/static/media/fonticons.9175c0b5.woff"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",

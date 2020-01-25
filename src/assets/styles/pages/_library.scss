@@ -10,7 +10,11 @@
     display: none;
   }
 }
-
+.library-content-items {
+  &:not(:empty) {
+    min-height: calc(100vh - 70px);
+  }
+}
 .library-nav {
   list-style-type: none;
   align-self: stretch;

@@ -1,6 +1,7 @@
 .fade-enter {
   opacity: 0;
 }
+
 .fade-enter-active {
   opacity: 1;
   transition: opacity 2s;
@@ -9,9 +10,11 @@
     pointer-events: none !important;
   }
 }
+
 .fade-exit {
   opacity: 1;
 }
+
 .fade-exit-active {
   opacity: 0;
   transition: opacity 2s;
@@ -37,4 +40,17 @@
 .page-animate-exit.page-animate-exit-active {
   opacity: 0.01;
   transition: opacity $animate_fade_duration ease-in;
+}
+
+.fadeIn {
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

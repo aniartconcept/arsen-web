@@ -1,23 +1,33 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import data, { workTypes } from 'db/library-works-db';
+
 import moment from 'moment';
 import i18n from 'locale/i18n';
 import { useTranslation } from 'react-i18next';
 import { animateScroll as scroll } from 'react-scroll';
 
+const workTypes = ['ORCHESTRA', 'ENSAMBLE', 'CHAMBER', 'CYCLES', 'SOLO', 'OTHER'];
+
 const Works = () => {
   const { t } = useTranslation();
   const [type, setType] = useState(workTypes[0]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const header = document.querySelector('.page-header');
     scroll.scrollTo(window.innerHeight - header.offsetHeight);
   }, [type]);
 
-  const filteredData = useCallback(() => data.filter(i => i.type === type), [type]);
+  const filteredData = useCallback(() => data.filter(i => i.type === type), [data, type]);
 
+  useEffect(() => {
+    fetch(process.env.PUBLIC_URL + '/db/library-works.json')
+      .then(res => {
+        return res.json();
+      })
+      .then(setData);
+  }, []);
   return (
-    <div className="recordings-content-container">
+    <div className="recordings-content-container fadeIn">
       <ul className="types-filter">
         {workTypes.map(i => (
           <li key={i}>
