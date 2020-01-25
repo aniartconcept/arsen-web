@@ -1,9 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import {useTranslation} from "react-i18next";
 
 const GalleryNav = () => {
   const galleryNav = useRef(null);
-  useEffect(() => {
+  const { t } = useTranslation();
+    useEffect(() => {
     const setClass = e => {
       const header = document.querySelector('.page-header');
       const { offsetTop, offsetHeight } = galleryNav.current;
@@ -22,22 +24,22 @@ const GalleryNav = () => {
     <ul className="gallery-nav" ref={galleryNav}>
       <li className="nav-item">
         <NavLink className="nav-link" to="/gallery/videos">
-          Videos
+            {t('RECORDINGS')}
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/gallery/recording">
-          Recording
+            {t('WORKS')}
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/gallery/media">
-          Media
+            {t('MEDIA')}
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/gallery/events">
-          Events
+            {t('EVENTS')}
         </NavLink>
       </li>
     </ul>

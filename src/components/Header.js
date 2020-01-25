@@ -49,22 +49,22 @@ const Header = () => {
               <ul className="header-sub-nav">
                 <li>
                   <NavLink className="nav-link" to="/gallery/videos" onClick={() => setShow(false)}>
-                    Videos
+                    {t('RECORDINGS')}
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="nav-link" to="/gallery/recording" onClick={() => setShow(false)}>
-                    Recording
+                    {t('WORKS')}
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="nav-link" to="/gallery/media" onClick={() => setShow(false)}>
-                    Media
+                    {t('MEDIA')}
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="nav-link" to="/gallery/events" onClick={() => setShow(false)}>
-                    Events
+                    {t('EVENTS')}
                   </NavLink>
                 </li>
               </ul>

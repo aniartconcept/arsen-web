@@ -8,15 +8,21 @@
   "CONTACTS": "Contacts",
   "CONTACT_ADDRESS": "Delpstrasse 31, 80802, Munich Germany",
   "FOOTER_TEXT_1": "Designed By Lilit Smbatyan",
-  "FOOTER_TEXT_2": "2019 All Rights Resserved",
+  "FOOTER_TEXT_2": "2020 All Rights Resserved",
   "BIOGRAPHY": "Biography",
   "BIO_HERO_TITLE": "ARSEN <br /> BABAJANYAN",
   "BIO_HERO_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscingia elit, sed do eiusmod tempor incididunt ut labore etaja dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-  "GALLERY": "Gallery",
+  "GALLERY": "Library",
   "ORCHESTRA": "Orchestra",
   "ENSAMBLE": "Ensamble",
   "CHAMBER": "Chamber",
   "CYCLES": "Cycles",
   "SOLO": "Solo",
-  "OTHER": "Other"
+  "OTHER": "Other",
+
+  "RECORDINGS": "Recordings",
+  "WORKS": "Works",
+  "MEDIA": "Media",
+  "EVENTS": "Events",
+  "PUBLISHED_WORKS": "Published Works"
 }

@@ -1,74 +1,130 @@
 export default [
   {
-    thumb: '/gallery/highlights/3.jpg',
-    title: { en: 'goodbye, bird', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
-    desc: {
-      en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
+    id: 1,
+    type: 'VIDEO',
+    date: '2019-04-16',
+    url: "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
     },
-    url: 'https://fb.com'
-  },
-  {
-    thumb: '/gallery/highlights/1.jpg',
-    title: { en: 'Die Kreuzigung Christi', hy: 'Die Kreuzigung Christi', ru: 'Die Kreuzigung Christi' },
     desc: {
-      en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
+  },
+  {
+    id: 2,
+    type: 'VIDEO',
+    date: '2019-04-17',
+    url: "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
     },
-    url: 'https://fb.com'
-  },
-  {
-    thumb: '/gallery/highlights/2.jpg',
-    title: { en: 'Lorem ipsum', hy: 'arm Lorem ipsum', ru: 'rus Lorem ipsum' },
-    desc: { en: '', hy: '', ru: '' },
-    url: 'https://fb.com'
-  },
-  {
-    thumb: '/gallery/highlights/4.jpg',
-    title: { en: 'dolor sit amet', hy: 'arm dolor sit amet', ru: 'rus dolor sit amet' },
     desc: {
-      en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
-    },
-    url: 'https://fb.com'
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
   },
   {
-    thumb: '/gallery/highlights/1.jpg',
-    title: { en: 'goodbye, bird', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
+    id: 3,
+    type: 'VIDEO',
+    date: '2019-04-18',
+    url: "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
+    },
     desc: {
-      en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
-    },
-    url: 'https://fb.com'
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
   },
   {
-    thumb: '/gallery/highlights/2.jpg',
-    title: { en: 'Die Kreuzigung Christi', hy: 'Die Kreuzigung Christi', ru: 'Die Kreuzigung Christi' },
+    id: 4,
+    type: 'VIDEO',
+    date: '2019-05-01',
+    url: "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
+    },
     desc: {
-      en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
+  },
+  {
+    id: 5,
+    type: 'VIDEO',
+    date: '2019-05-16',
+    url: "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
     },
-    url: 'https://fb.com'
-  },
-  {
-    thumb: '/gallery/highlights/3.jpg',
-    title: { en: 'Lorem ipsum', hy: 'arm Lorem ipsum', ru: 'rus Lorem ipsum' },
-    desc: { en: '', hy: '', ru: '' },
-    url: 'https://fb.com'
-  },
-  {
-    thumb: '/gallery/highlights/4.jpg',
-    title: { en: 'dolor sit amet', hy: 'arm dolor sit amet', ru: 'rus dolor sit amet' },
     desc: {
-      en: 'Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
-      ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
+  },
+  {
+    id: 6,
+    type: 'VIDEO',
+    date: '2019-06-26',
+    url: "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
     },
-    url: 'https://fb.com'
+    desc: {
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
+  },
+  {
+    id: 7,
+    type: 'AUDIO',
+    date: '2019-04-16',
+    url: 'https://soundcloud.com/arsen-babajanyan-3/arsen-babajanyan-to-to-unknown-soldier-after-p-celan',
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
+    },
+    desc: {
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
+  },
+  {
+    id: 8,
+    type: 'AUDIO',
+    date: '2019-08-20',
+    url: 'https://soundcloud.com/arsen-babajanyan-3/arsen-babajanyan-to-to-unknown-soldier-after-p-celan',
+    name: {
+      en: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      hy: 'Flourishing Flowers and Prelude to the Revelry of the Gecko ',
+      ru: 'Flourishing Flowers and Prelude to the Revelry of the Gecko '
+    },
+    desc: {
+      en: 'For Big Orchestra',
+      hy: 'Arm For Big Orchestra',
+      ru: 'Rus For Big Orchestra'
+    }
   }
 ];
