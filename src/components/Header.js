@@ -75,8 +75,8 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contacts" onClick={closeMenu}>
-                {t('CONTACTS')}
+              <NavLink className="nav-link" to="/highlights" onClick={closeMenu}>
+                {t('HIGHLIGHTS')}
               </NavLink>
             </li>
           </ul>

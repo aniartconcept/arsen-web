@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import HighlightsSection from './Home/HighlightsSection';
 
-const Contacts = () => {
+const Highlights = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -13,4 +13,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Highlights;

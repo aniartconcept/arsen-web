@@ -43,6 +43,16 @@ section {
   overflow: hidden;
   position: relative;
 }
+.hero-section-desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+  background-color: black;
+}
+
 .section-hero {
   height: 100vh;
   display: flex;

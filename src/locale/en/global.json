@@ -11,7 +11,7 @@
   "FOOTER_TEXT_2": "2020 All Rights Resserved",
   "BIOGRAPHY": "Biography",
   "BIO_HERO_TITLE": "ARSEN <br /> BABAJANYAN",
-  "BIO_HERO_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscingia elit, sed do eiusmod tempor incididunt ut labore etaja dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  "BIO_HERO_DESC": "Munich based Armenian Composer, whose musical path has been started from childhood. \nThough the main stream of his activity is composition, the range of Arsen's interests are really wide and all the branches of art are involved. This fact is clearly reflected in all his undertakings.",
   "LIBRARY": "Library",
   "ORCHESTRA": "Orchestra",
   "ENSAMBLE": "Ensamble",
@@ -24,5 +24,6 @@
   "WORKS": "Works",
   "MEDIA": "Media",
   "EVENTS": "Events",
-  "PUBLISHED_WORKS": "Published Works"
+  "PUBLISHED_WORKS": "Published Works",
+  "HIGHLIGHTS": "Highlights"
 }

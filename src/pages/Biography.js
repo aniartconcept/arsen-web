@@ -4,9 +4,9 @@ import i18n from 'locale/i18n';
 
 import Image1 from 'assets/img/bio/bio-2@2x.jpg';
 import Image2 from 'assets/img/bio/bio-3@2x.jpg';
-import Image3 from 'assets/img/bio/bio-4@2x.jpg';
-import Image4 from 'assets/img/bio/bio-5@2x.jpg';
-import Image5 from 'assets/img/bio/bio-6@2x.jpg';
+import Image3 from 'assets/img/bio/bio-6@2x.jpg';
+import Image4 from 'assets/img/bio/bio-1@2x.jpg';
+import Image5 from 'assets/img/bio/bio-4@2x.jpg';
 
 const Biography = () => {
   const [data, setData] = useState(null);

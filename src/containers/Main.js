@@ -6,8 +6,8 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from 'pages/Home';
 import Biography from 'pages/Biography';
 import Library from 'pages/Library';
-import Contacts from 'pages/Contacts';
 import Footer from 'components/Footer';
+import Highlights from "../pages/Highlights";
 
 const getKye = ({ pathname, key }) => {
   const parts = pathname.split('/');
@@ -24,7 +24,7 @@ const Main = ({ location }) => {
           <Switch location={location}>
             <Route path="/library" component={Library} />
             <Route exact path="/biography" component={Biography} />
-            <Route exact path="/contacts" component={Contacts} />
+            <Route exact path="/highlights" component={Highlights} />
             <Route exact path="/" component={Home} />
             <Redirect to="/" />
           </Switch>
