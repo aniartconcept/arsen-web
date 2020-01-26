@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 
 import moment from 'moment';
 import i18n from 'locale/i18n';
@@ -14,10 +14,8 @@ const Works = () => {
 
   useEffect(() => {
     const header = document.querySelector('.page-header');
-    scroll.scrollTo(window.innerHeight - header.offsetHeight);
+    scroll.scrollTo(window.innerHeight - header.offsetHeight + 1);
   }, [type]);
-
-  const filteredData = useCallback(() => data.filter(i => i.type === type), [data, type]);
 
   useEffect(() => {
     fetch(process.env.PUBLIC_URL + '/db/library-works.json')
@@ -26,6 +24,11 @@ const Works = () => {
       })
       .then(setData);
   }, []);
+
+  const filteredData = useMemo(() => {
+    return data.filter(i => i.type === type);
+  }, [data, type]);
+
   return (
     <div className="recordings-content-container fadeIn">
       <ul className="types-filter">
@@ -38,7 +41,7 @@ const Works = () => {
         ))}
       </ul>
       <ul className="recordings">
-        {filteredData().map(item => (
+        {filteredData.map(item => (
           <li key={item.id} className="recording-item">
             <div className="item-year">{moment(item.year).format('YYYY')}</div>
             <div className="item-name">{item.name[i18n.language]}</div>

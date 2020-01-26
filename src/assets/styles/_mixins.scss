@@ -34,7 +34,7 @@
   }
 }
 
-@mixin ellipsis($lineHeight: 1.2em, $lineCount: 1) {
+@mixin ellipsis($lineHeight: 1.25em, $lineCount: 1) {
   position: relative;
   line-height: $lineHeight;
   height: $lineHeight * $lineCount;
