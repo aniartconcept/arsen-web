@@ -12,7 +12,7 @@ const ArticleMedia = ({ data }) => (
       <Image src={process.env.PUBLIC_URL + data.thumb} alt="" />
     </div>
     <div className="article-body">
-      <p className="article-desc">{data.desc[i18n.language]}</p>
+      <p className="article-desc" dangerouslySetInnerHTML={{__html: data.desc[i18n.language]}}></p>
       {!!data.date && <span className="article-date">{formatDate(data.date)}</span>}
     </div>
   </a>

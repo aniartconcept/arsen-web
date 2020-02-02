@@ -5,7 +5,7 @@ import ArticleMedia from 'components/ArticleMedia';
 const Events = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/db/library-media.json')
+    fetch(process.env.PUBLIC_URL + '/db/library-events.json')
       .then(res => {
         return res.json();
       })

@@ -3,8 +3,10 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
 import en from './en/global.json';
-import ru from './ru/global.json';
-import hy from './hy/global.json';
+//import ru from './ru/global.json';
+//import hy from './hy/global.json';
+import de from './de/global.json';
+
 
 i18n
   .use(LanguageDetector)
@@ -12,8 +14,9 @@ i18n
   .init({
     resources: {
       en: { translations: en },
-      ru: { translations: ru },
-      hy: { translations: hy }
+      //ru: { translations: ru },
+      //hy: { translations: hy },
+      de: { translations: de }
     },
     fallbackLng: 'en',
     ns: ['translations'],

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-const languages = [{ key: 'en', label: 'EN' }, { key: 'hy', label: 'ARM' }, { key: 'ru', label: 'RU' }];
+const languages = [{ key: 'en', label: 'EN' }, { key: 'de', label: 'DE' } /*, { key: 'hy', label: 'ARM' }, { key: 'ru', label: 'RU' }*/];
 
 const LangSwitch = () => {
   const { i18n } = useTranslation();

@@ -193,7 +193,7 @@
   .article-desc {
     font-size: 1rem;
     font-weight: 300;
-    @include ellipsis(1.2em, 3);
+    @include ellipsis(1.3em, 4);
   }
   .article-action-wrapper {
     display: flex;
