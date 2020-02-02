@@ -2,6 +2,7 @@
   {
     "thumb": "/gallery/events/events_1.jpg",
     "title": { "en": "Portrait concert", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "images": [{"path": "/gallery/events/events_1.jpg"}, {"path": "/gallery/events/events_2.jpg"} ],
     "desc": {
       "en": "Paris | October 28 | 2019 <br> Auditorium - Cité internationale des arts",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -12,6 +13,7 @@
   {
     "thumb": "/gallery/events/events_2.jpg",
     "title": { "en": "7 miniatures", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "images": [{"path": "/gallery/events/events_1.jpg"}, {"path": "/gallery/events/events_2.jpg"} ],
     "desc": {
       "en": "Performance of \"7 miniatures\" by Jelena Stojkovic. <br>Gasteig, Munich | 22.09.2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -22,12 +24,14 @@
   {
     "thumb": "/gallery/events/event_3.jpg",
     "title": { "en": "String Quartet No. 5", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "images": [{"path": "/gallery/events/events_4.jpg"}, {"path": "/gallery/events/events_3.jpg"} ],
     "desc": { "en": "The premiere of String Quartet No. 5 performed by wonderful musicians of Munich Philharmonic. <br> Munich | 23.11.2019", "hy": "", "ru": "" },
     "url": "https://www.youtube.com/watch?v=cGa2pRrrYO4"
   },
   {
     "thumb": "/gallery/events/events_4.jpg",
     "title": { "en": "UTRECHT, CARAVAGGIO and EUROPE", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "images": [{"path": "/gallery/events/events_4.jpg"}, {"path": "/gallery/events/events_3.jpg"} ],
     "desc": {
       "en": "München | April 17, 2019 - July 21, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -38,6 +42,7 @@
   {
     "thumb": "/gallery/events/event_6.jpg",
     "title": { "en": "Award - Fridtjof Nansen", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "images": [{"path": "/gallery/events/events_4.jpg"}, {"path": "/gallery/events/events_3.jpg"} ],
     "desc": {
       "en": "Awarded the Fridtjof Nansen Gold Commemorative Medal for the activities towards establishing humanitarian principles and condemnation of the Armenian Genocide <br>Yerevan, Armenia",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -49,11 +54,13 @@
     "thumb": "/gallery/events/event_7.jpg",
     "title": { "en": "Felix Mendelssohn Bartholdy", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
     "desc": { "en": "3rd Prize for Composition by Felix Mendelssohn Bartholdy Conservatory Competition, Berlin", "hy": "", "ru": "" },
+    "images": [{"path": "/gallery/events/events_4.jpg"}, {"path": "/gallery/events/events_3.jpg"} ],
     "url": "https://soundcloud.com/armradio/29102018a-5"
   },
   {
     "thumb": "/gallery/events/event_5.jpg",
     "title": { "en": "Graduation Concert", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "images": [{"path": "/gallery/events/events_4.jpg"}, {"path": "/gallery/events/events_3.jpg"} ],
     "desc": {
       "en": "Graduation Concert | 09.02.2018",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
