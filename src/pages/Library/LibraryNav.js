@@ -10,7 +10,7 @@ const LibraryNav = () => {
     window.onresize = function() {
       wh = window.innerHeight;
     };
-    const header = document.querySelector('.page-header');
+
     const setClass = e => {
       const { offsetHeight, offsetTop } = libraryNav.current;
 
