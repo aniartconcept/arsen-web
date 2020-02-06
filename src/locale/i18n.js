@@ -7,7 +7,6 @@ import en from './en/global.json';
 //import hy from './hy/global.json';
 import de from './de/global.json';
 
-
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)

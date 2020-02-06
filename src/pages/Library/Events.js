@@ -17,16 +17,23 @@ const Events = () => {
   }, []);
   const toggleModal = useCallback((arr = []) => {
     setIsVisible(prev => !prev);
-    setCurrent(arr);
+    if (arr.length) {
+      setCurrent(arr);
+    } else {
+      setTimeout(() => {
+        setCurrent([]);
+      }, 2001);
+    }
   }, []);
   return (
-    <div className="library-content-container fadeIn">
-      {data.map((item, index) => (
-        <ArticleMedia data={item} key={index} onClick={toggleModal} />
-      ))}
-
+    <>
+      <div className={`library-content-container fadeIn ${current.length ? 'pointer-events-none' : ''}`}>
+        {data.map((item, index) => (
+          <ArticleMedia data={item} key={index} onClick={toggleModal} />
+        ))}
+      </div>
       <MediaModal items={current} toggle={toggleModal} isVisible={isVisible}></MediaModal>
-    </div>
+    </>
   );
 };
 

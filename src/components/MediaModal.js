@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import Image from './Image';
 import { CSSTransition } from 'react-transition-group';
@@ -7,7 +7,7 @@ const MediaModal = ({ items = [], toggle, isVisible }) => {
   const settings = {
     customPaging: function(i) {
       return (
-        <span>
+        <span key={i}>
           <Image src={process.env.PUBLIC_URL + items[i].path} alt="" />
         </span>
       );
@@ -21,12 +21,12 @@ const MediaModal = ({ items = [], toggle, isVisible }) => {
   };
 
   return (
-    <CSSTransition in={isVisible} timeout={{ enter: 1000, exit: 1000 }} unmountOnExit classNames="fade">
+    <CSSTransition in={isVisible} timeout={{ enter: 2000, exit: 2000 }} unmountOnExit classNames="fade">
       <div className="media-modal">
         <span className="close" onClick={() => toggle()} />
         <Slider {...settings}>
-          {items.map(item => (
-            <div>
+          {items.map((item, index) => (
+            <div key={index}>
               <Image src={process.env.PUBLIC_URL + item.path} alt="" />
             </div>
           ))}
