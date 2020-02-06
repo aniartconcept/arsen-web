@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: 50% 0;
   box-shadow: inset 0 100vh 0 rgba(0, 0, 0, 0.5);
-  background-attachment: fixed;
+
   &:after,
   &:before {
     display: none;
@@ -31,9 +31,11 @@
   box-shadow: 0 1px 0 $primary;
   margin-top: -$header-height;
   pointer-events: none;
-  transition: opacity 0.5s;
-  background: linear-gradient(rgba(black, 0) 50%, rgba(black, 1));
-
+  transition: all 0.5s;
+  background: linear-gradient(rgba(black, 0), rgba(black, 1));
+  &.pined {
+    background: linear-gradient(rgba(black, 1), rgba(black, 1));
+  }
   .menu-opened & {
     opacity: 0;
     pointer-events: none;
@@ -329,15 +331,37 @@
     padding: 1rem;
   }
   .library-nav {
-    position: static;
+    // position: static;
+    // top: $header-height-m;
+    z-index: 999;
+    height: 47px;
+    margin-top: -47px;
+    background: linear-gradient(rgba(black, 0) 0%, rgba(black, 1));
+    transition: background $transition_duration;
+    &.pined {
+      background: linear-gradient(rgba(black, 1) 0%, rgba(black, 1));
+    }
+    .nav-item {
+      &:after {
+        min-height: 10px;
+      }
+      &:before {
+        margin-bottom: 0;
+      }
+    }
     .nav-link {
-      font-size: 1rem;
+      margin: 5px 0;
+      font-size: 0.9rem;
       width: $lines_size-m;
     }
   }
   .recordings-content-container {
     padding-right: 0;
     border-right: 0;
+    padding-top: 0;
+    .recordings {
+      // padding-top: 3rem;
+    }
     .types-filter {
       padding-left: 1.5rem;
     }

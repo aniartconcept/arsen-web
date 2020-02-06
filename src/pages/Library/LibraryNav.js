@@ -6,13 +6,18 @@ const LibraryNav = () => {
   const libraryNav = useRef(null);
   const { t } = useTranslation();
   useEffect(() => {
+    let wh = window.innerHeight;
+    window.onresize = function() {
+      wh = window.innerHeight;
+    };
+    const header = document.querySelector('.page-header');
     const setClass = e => {
-      const header = document.querySelector('.page-header');
-      const { offsetTop, offsetHeight } = libraryNav.current;
-      if (offsetTop - window.innerHeight + offsetHeight > 0) {
-        header.classList.add('pined');
+      const { offsetHeight, offsetTop } = libraryNav.current;
+
+      if (offsetTop + offsetHeight >= wh + 1) {
+        libraryNav.current.classList.add('pined');
       } else {
-        header.classList.remove('pined');
+        libraryNav.current.classList.remove('pined');
       }
     };
     document.addEventListener('scroll', setClass);

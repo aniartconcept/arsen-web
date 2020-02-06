@@ -1,5 +1,7 @@
 .bio-section-hero {
   justify-content: flex-start;
+  overflow: hidden;
+
   .section-caption {
     max-width: 25%;
     margin-left: 8.59%;
@@ -175,6 +177,9 @@
     }
     .section-title {
       z-index: 10;
+    }
+    .hero-section-desc {
+      background: none;
     }
     .section-caption {
       position: relative;

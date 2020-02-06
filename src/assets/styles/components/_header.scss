@@ -4,11 +4,8 @@
   left: 0;
   width: 100%;
   z-index: 200;
-  background: linear-gradient(rgba(black, 1), rgba(black, 0) 95%);
-  transition: background $transition_duration;
-  &.pined {
-    background: linear-gradient(rgba(black, 1), rgba(black, 1) 100%);
-  }
+  background: linear-gradient(rgba(black, 1), rgba(black, 0) 99%);
+  transition: all $transition_duration;
 }
 
 .header-container {
@@ -222,6 +219,11 @@
     .nav-link {
       font-size: 0.875rem;
       width: $lines_size-m;
+    }
+  }
+  .page-header {
+    &.pined {
+      transform: translateY(-100%);
     }
   }
 }

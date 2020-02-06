@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 import data from 'db/highlights-db';
 import { chunk } from 'services/helpers';
 import ArticleMedia from 'components/ArticleMedia';
-
 import { useWindowSize } from 'services/hooks';
 
 const HighlightsSection = () => {

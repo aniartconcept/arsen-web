@@ -3,6 +3,7 @@ import LangSwitch from 'components/LangSwitch';
 import SocialLinks from 'components/SocialLinks';
 import { useTranslation } from 'react-i18next';
 import { useWindowSize } from 'services/hooks';
+import Section from 'react-div-100vh';
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const HeroSection = () => {
     toggler.click();
   };
   return (
-    <section className="section-hero home-section-hero">
+    <Section className="section-hero home-section-hero">
       {!isMobile && <LangSwitch />}
       <div className="section-caption" onClick={openHeader}>
         {letters.map((l, i) => (
@@ -21,7 +22,7 @@ const HeroSection = () => {
         ))}
       </div>
       {!isMobile && <SocialLinks />}
-    </section>
+    </Section>
   );
 };
 
