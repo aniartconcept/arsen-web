@@ -1,74 +1,74 @@
 [
   {
-    "thumb": "/gallery/highlights/1.jpg",
-    "title": { "en": "goodbye, bird", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "thumb": "/gallery/media/media_1.jpg",
+    "title": { "en": "Die Kreuzigung Christi", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
-      "en": "Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "en": "#PinaCaravaggisti | Alte Pinakothec <br> 17.04.2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://fb.com"
+    "url": "https://www.youtube.com/watch?v=R190TPqab80&t=6s"
   },
   {
-    "thumb": "/gallery/highlights/2.jpg",
-    "title": { "en": "Die Kreuzigung Christi", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "thumb": "/gallery/media/media_2.jpg",
+    "title": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
-      "en": "Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "en": "Interview with composer Arsen Babajanyan on Shoghakat TV <br>(in Armenian)",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://fb.com"
+    "url": "https://www.youtube.com/watch?v=Y-1Up-q6b-Q"
   },
   {
-    "thumb": "/gallery/highlights/3.jpg",
-    "title": { "en": "Lorem ipsum", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
-    "desc": { "en": "", "hy": "", "ru": "" },
-    "url": "https://fb.com"
+    "thumb": "/gallery/media/media_3.jpg",
+    "title": { "en": "OPUS 3 - Interview", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "Arsen Babajanyan and Mane Hovhannisyan about the festival OPUS 3 on the program Morning in Shant TV (Interview in Armenian)", "hy": "", "ru": "" },
+    "url": "https://www.youtube.com/watch?v=cGa2pRrrYO4"
   },
   {
-    "thumb": "/gallery/highlights/4.jpg",
-    "title": { "en": "dolor sit amet", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "thumb": "/gallery/media/media_8.jpg",
+    "title": { "en": "Competition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
-      "en": "Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "en": "3rd Prize for Composition by Felix Mendelssohn Bartholdy <br> Conservatory Competition, Berlin",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://fb.com"
+    "url": "https://www.fmb-hochschulwettbewerb.de/babajanyan-arsen-muenchen-2/"
   },
   {
-    "thumb": "/gallery/highlights/1.jpg",
-    "title": { "en": "goodbye, bird", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "thumb": "/gallery/media/media_4.jpg",
+    "title": { "en": "Radio Liberty - Interview", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
-      "en": "Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "en": "Conversation of Radio Liberty with composer Arsen Babajanyan (in Armenian)",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://fb.com"
+    "url": "https://www.youtube.com/watch?v=KugIWkuhdIE"
   },
   {
-    "thumb": "/gallery/highlights/2.jpg",
-    "title": { "en": "Die Kreuzigung Christi", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "thumb": "/gallery/media/media_5.jpg",
+    "title": { "en": "Public Radio of Armenia", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
-      "en": "Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "en": "Interview about the interactions between music and visual art within the frame of the programm “Vernatun”, Public Radio (in Armenian) ",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://fb.com"
+    "url": "https://soundcloud.com/armradio/04032019a-1"
   },
   {
-    "thumb": "/gallery/highlights/3.jpg",
-    "title": { "en": "Lorem ipsum", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
-    "desc": { "en": "", "hy": "", "ru": "" },
-    "url": "https://fb.com"
+    "thumb": "/gallery/media/media_6.jpg",
+    "title": { "en": "Public Radio of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "Review about the international music festival Yuri Hayrapetyan-85.", "hy": "", "ru": "" },
+    "url": "https://soundcloud.com/armradio/29102018a-5"
   },
   {
-    "thumb": "/gallery/highlights/4.jpg",
-    "title": { "en": "dolor sit amet", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "thumb": "/gallery/media/media_7.jpg",
+    "title": { "en": "Interview with Bravo.am", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
-      "en": "Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "en": "Interview about “Goodbye, Bird“ opera and not only",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://fb.com"
+    "url": "https://bravo.am/news/%D4%B1%D6%80%D5%BD%D5%A5%D5%B6_%D4%B2%D5%A1%D5%A2%D5%A1%D5%BB%D5%A1%D5%B6%D5%B5%D5%A1%D5%B6%D5%AB_%D5%AF%D5%A1%D5%B4%D5%A5%D6%80%D5%A1%D5%B5%D5%AB%D5%B6_%D6%85%D5%BA%D5%A5%D6%80%D5%A1%D5%B6___%D5%91%D5%BF%D5%A5%D5%BD%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6__%D4%BE%D5%AB%D5%BF__%D5%BE%D5%A5%D5%BA%D5%AB_%D5%B0%D5%AB%D5%B4%D5%A1%D5%B6_%D5%BE%D6%80%D5%A1_58169?fbclid=IwAR3kUotvkdhKxU8X2RGhsqtktJZS_8OFrcVZeq210k8i22KR7NNMjePsUM4"
   }
 ]
