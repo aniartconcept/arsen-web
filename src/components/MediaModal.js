@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import Image from './Image';
 import { CSSTransition } from 'react-transition-group';

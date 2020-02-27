@@ -2,7 +2,11 @@
   {
     "thumb": "/gallery/events/events_1.jpg",
     "title": { "en": "Portrait concert", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+<<<<<<< HEAD
     "images": [{ "path": "/gallery/events/events_1.jpg" }, { "path": "/gallery/events/events_1_1.jpg" }, { "path": "/gallery/events/events_1_3.jpg" }],
+=======
+    "images": [{ "path": "/gallery/events/events_1.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+>>>>>>> Updates
     "desc": {
       "en": "Paris | October 28 | 2019 <br> Auditorium - Cité internationale des arts",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -13,7 +17,11 @@
   {
     "thumb": "/gallery/events/events_2.jpg",
     "title": { "en": "7 miniatures", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+<<<<<<< HEAD
     "images": [{ "path": "/gallery/events/events_2.jpg" }, { "path": "/gallery/events/events_2_1.jpg" }],
+=======
+    "images": [{ "path": "/gallery/events/events_1.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+>>>>>>> Updates
     "desc": {
       "en": "Performance of \"7 miniatures\" by Jelena Stojkovic. <br>Gasteig, Munich | 22.09.2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -24,11 +32,15 @@
   {
     "thumb": "/gallery/events/event_3.jpg",
     "title": { "en": "String Quartet No. 5", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+<<<<<<< HEAD
     "images": [{ "path": "/gallery/events/events_3.jpg" }, { "path": "/gallery/events/events_3_1.jpg" }, { "path": "/gallery/events/events_3_2.jpg" },
       { "path": "/gallery/events/events_3_3.jpg" }, { "path": "/gallery/events/events_3_4.jpg" }, { "path": "/gallery/events/events_3_5.jpg" },
       { "path": "/gallery/events/events_3_6.jpg" }, { "path": "/gallery/events/events_3_7.jpg" }, { "path": "/gallery/events/events_3_8.jpg" },
       { "path": "/gallery/events/events_3_9.jpg" }],
 
+=======
+    "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+>>>>>>> Updates
     "desc": {
       "en": "The premiere of String Quartet No. 5 performed by wonderful musicians of Munich Philharmonic. <br> Munich | 23.11.2019",
       "hy": "",
@@ -39,10 +51,14 @@
   {
     "thumb": "/gallery/events/events_4.jpg",
     "title": { "en": "UTRECHT, CARAVAGGIO and EUROPE", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+<<<<<<< HEAD
     "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_4_1.jpg" }, { "path": "/gallery/events/events_4_2.jpg" },
       { "path": "/gallery/events/events_4_3.jpg" }, { "path": "/gallery/events/events_4_4.jpg" }, { "path": "/gallery/events/events_4_5.jpg" },
       { "path": "/gallery/events/events_4_6.jpg" }, { "path": "/gallery/events/events_4_7.jpg" }, { "path": "/gallery/events/events_4_8.jpg" },
       { "path": "/gallery/events/events_4_9.jpg" }],
+=======
+    "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+>>>>>>> Updates
     "desc": {
       "en": "München | April 17, 2019 - July 21, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -53,7 +69,11 @@
   {
     "thumb": "/gallery/events/event_6.jpg",
     "title": { "en": "Award - Fridtjof Nansen", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+<<<<<<< HEAD
     "images": [{ "path": "/gallery/events/events_6.jpg" }, { "path": "/gallery/events/events_5_1.jpg" }, { "path": "/gallery/events/events_5_2.jpg" }],
+=======
+    "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+>>>>>>> Updates
     "desc": {
       "en": "Awarded the Fridtjof Nansen Gold Commemorative Medal for the activities towards establishing humanitarian principles and condemnation of the Armenian Genocide <br>Yerevan, Armenia",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -69,8 +89,12 @@
       "hy": "",
       "ru": ""
     },
+<<<<<<< HEAD
     "images": [{ "path": "/gallery/events/events_7.jpg" }, { "path": "/gallery/events/events_6_1.jpg" },
       { "path": "/gallery/events/events_6_2.jpg" }, { "path": "/gallery/events/events_6_3.jpg" }],
+=======
+    "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+>>>>>>> Updates
     "url": "https://soundcloud.com/armradio/29102018a-5"
   },
   {
