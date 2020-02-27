@@ -37,6 +37,17 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "reactSnap": {
+    "cacheAjaxRequests": true,
+    "skipThirdPartyRequests": true,
+    "include": [
+      "/biography",
+      "/library/recordings",
+      "/library/works",
+      "/library/events",
+      "/library/media"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
