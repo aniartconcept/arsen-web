@@ -28,6 +28,7 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
+    "postbuild": "react-snap",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
