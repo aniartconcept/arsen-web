@@ -38,8 +38,6 @@
     "extends": "react-app"
   },
   "reactSnap": {
-    "cacheAjaxRequests": true,
-    "skipThirdPartyRequests": true,
     "include": [
       "/biography",
       "/library/recordings",
