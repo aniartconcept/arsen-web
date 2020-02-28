@@ -7,7 +7,7 @@ import Home from 'pages/Home';
 import Biography from 'pages/Biography';
 import Library from 'pages/Library';
 import Footer from 'components/Footer';
-import Highlights from "../pages/Highlights";
+import Highlights from '../pages/Highlights';
 
 const getKye = ({ pathname, key }) => {
   const parts = pathname.split('/');
@@ -22,10 +22,10 @@ const Main = ({ location }) => {
       <CSSTransition key={getKye(location)} timeout={{ enter: 800, exit: 800 }} classNames="page-animate">
         <div className="page-content">
           <Switch location={location}>
-            <Route path="/library" component={Library} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/biography" component={Biography} />
             <Route exact path="/highlights" component={Highlights} />
-            <Route exact path="/" component={Home} />
+            <Route path="/library" component={Library} />
             <Redirect to="/" />
           </Switch>
           <Footer />
