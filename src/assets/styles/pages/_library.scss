@@ -192,6 +192,27 @@
         margin-left: 0.5rem;
       }
     }
+
+    .recording-item-inner {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .recording-item-thumb {
+      background-size: cover;
+      background-position: center;
+      margin-left: 1.5rem;
+      width: 20%;
+
+      &:before {
+        content: '';
+        padding-bottom: 75%;
+        display: block;
+      }
+    }
+    .recording-item-content {
+      flex: 1;
+    }
     .item-name {
       font-size: 1.1rem;
       padding: 0 1.5rem;
@@ -401,6 +422,19 @@
     }
     .types-filter {
       padding-left: 1.5rem;
+    }
+    .recording-item {
+      .recording-item-inner {
+        align-items: stretch;
+        flex-direction: column;
+      }
+      .recording-item-thumb {
+        width: auto;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      .recording-item-content {
+      }
     }
   }
   .videos-content-container {

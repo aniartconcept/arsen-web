@@ -22,7 +22,12 @@ const Recordings = () => {
                 <i className={`icon icon-${item.type.toLowerCase()}`}></i>
               </div>
               <div className="recording-item-inner">
-                {!!item.url && <img src={item.url} alt={item.name} />}
+                {!!item.thumb && (
+                  <div
+                    style={{ backgroundImage: `url(${process.env.PUBLIC_URL + item.thumb})` }}
+                    className="recording-item-thumb"
+                  />
+                )}
                 <div className="recording-item-content">
                   <div className="item-name">{item.name[i18n.language]}</div>
                   <div className="item-desc" dangerouslySetInnerHTML={{ __html: item.desc[i18n.language] }}></div>
