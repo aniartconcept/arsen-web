@@ -21,8 +21,13 @@ const Recordings = () => {
               <div className="line-recordings">
                 <i className={`icon icon-${item.type.toLowerCase()}`}></i>
               </div>
-              <div className="item-name">{item.name[i18n.language]}</div>
-              <div className="item-desc" dangerouslySetInnerHTML={{__html: item.desc[i18n.language]}}></div>
+              <div className="recording-item-inner">
+                {!!item.url && <img src={item.url} alt={item.name} />}
+                <div className="recording-item-content">
+                  <div className="item-name">{item.name[i18n.language]}</div>
+                  <div className="item-desc" dangerouslySetInnerHTML={{ __html: item.desc[i18n.language] }}></div>
+                </div>
+              </div>
             </a>
           </li>
         ))}

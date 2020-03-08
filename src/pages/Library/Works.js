@@ -1,6 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
 
-import moment from 'moment';
 import i18n from 'locale/i18n';
 import { useTranslation } from 'react-i18next';
 import { animateScroll as scroll } from 'react-scroll';
