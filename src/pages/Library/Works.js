@@ -43,9 +43,9 @@ const Works = () => {
       <ul className="recordings">
         {filteredData.map(item => (
           <li key={item.id} className="recording-item">
-            <div className="item-year">{moment(item.year).format('YYYY')}</div>
-            <div className="item-name">{item.name[i18n.language]}</div>
-            <div className="item-desc">{item.desc[i18n.language]}</div>
+            <div className="line-recordings"></div>
+            <div className="item-name-works">{item.name[i18n.language]}</div>
+            <div className="item-desc-works">{item.desc[i18n.language]}</div>
           </li>
         ))}
       </ul>

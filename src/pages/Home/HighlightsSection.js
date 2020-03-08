@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 import data from 'db/highlights-db';
 import { chunk } from 'services/helpers';
-import ArticleMedia from 'components/ArticleMedia';
+import ArticleHighlights from 'components/ArticleHighlights';
 import { useWindowSize } from 'services/hooks';
 
 const HighlightsSection = () => {
@@ -35,7 +35,7 @@ const HighlightsSection = () => {
           {slides.map((slide, i) => (
             <div className="slider-item" key={i}>
               {slide.map((item, index) => (
-                <ArticleMedia key={index} data={item} />
+                <ArticleHighlights key={index} data={item} />
               ))}
             </div>
           ))}

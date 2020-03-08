@@ -2,6 +2,7 @@
   {
     "thumb": "/gallery/media/media_1.jpg",
     "title": { "en": "Die Kreuzigung Christi", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "type": "video",
     "desc": {
       "en": "#PinaCaravaggisti | Alte Pinakothec <br> 17.04.2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -11,6 +12,7 @@
   },
   {
     "thumb": "/gallery/media/media_2.jpg",
+    "type": "audio",
     "title": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
       "en": "Interview with composer Arsen Babajanyan on Shoghakat TV <br>(in Armenian)",
@@ -20,12 +22,14 @@
     "url": "https://www.youtube.com/watch?v=Y-1Up-q6b-Q"
   },
   {
+    "type": "video",
     "thumb": "/gallery/media/media_3.jpg",
     "title": { "en": "OPUS 3 - Interview", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
     "desc": { "en": "Arsen Babajanyan and Mane Hovhannisyan about the festival OPUS 3 on the program Morning in Shant TV (Interview in Armenian)", "hy": "", "ru": "" },
     "url": "https://www.youtube.com/watch?v=cGa2pRrrYO4"
   },
   {
+    "type": "audio",
     "thumb": "/gallery/media/media_8.jpg",
     "title": { "en": "Competition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
@@ -36,6 +40,7 @@
     "url": "https://www.fmb-hochschulwettbewerb.de/babajanyan-arsen-muenchen-2/"
   },
   {
+    "type": "audio",
     "thumb": "/gallery/media/media_4.jpg",
     "title": { "en": "Radio Liberty - Interview", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
@@ -46,6 +51,7 @@
     "url": "https://www.youtube.com/watch?v=KugIWkuhdIE"
   },
   {
+    "type": "audio",
     "thumb": "/gallery/media/media_5.jpg",
     "title": { "en": "Public Radio of Armenia", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
@@ -56,12 +62,14 @@
     "url": "https://soundcloud.com/armradio/04032019a-1"
   },
   {
+    "type": "audio",
     "thumb": "/gallery/media/media_6.jpg",
     "title": { "en": "Public Radio of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
     "desc": { "en": "Review about the international music festival Yuri Hayrapetyan-85.", "hy": "", "ru": "" },
     "url": "https://soundcloud.com/armradio/29102018a-5"
   },
   {
+    "type": "audio",
     "thumb": "/gallery/media/media_7.jpg",
     "title": { "en": "Interview with Bravo.am", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {

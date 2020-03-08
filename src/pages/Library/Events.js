@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 
-import ArticleMedia from 'components/ArticleMedia';
+import ArticleHighlights from 'components/ArticleHighlights';
 import MediaModal from 'components/MediaModal';
 
 const Events = () => {
@@ -29,7 +29,7 @@ const Events = () => {
     <>
       <div className={`library-content-container fadeIn ${current.length ? 'pointer-events-none' : ''}`}>
         {data.map((item, index) => (
-          <ArticleMedia data={item} key={index} onClick={toggleModal} />
+          <ArticleHighlights data={item} key={index} onClick={toggleModal} />
         ))}
       </div>
       <MediaModal items={current} toggle={toggleModal} isVisible={isVisible}></MediaModal>

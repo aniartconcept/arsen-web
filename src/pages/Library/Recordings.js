@@ -22,7 +22,7 @@ const Recordings = () => {
                 <i className={`icon icon-${item.type.toLowerCase()}`}></i>
               </div>
               <div className="item-name">{item.name[i18n.language]}</div>
-              <div className="item-desc">{item.desc[i18n.language]}</div>
+              <div className="item-desc" dangerouslySetInnerHTML={{__html: item.desc[i18n.language]}}></div>
             </a>
           </li>
         ))}
