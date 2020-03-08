@@ -4,6 +4,7 @@
     "type": "VIDEO",
     "date": "2019-04-16",
     "url": "https://www.youtube.com/watch?v=Bw5EZM6GIPU&t=49s",
+    "thumb": "/gallery/media/media_1.jpg",
     "name": {
       "en": "Die Kreuzigung Christi (2019)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
@@ -19,6 +20,7 @@
     "id": 2,
     "type": "VIDEO",
     "date": "2019-04-17",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=pQI7TP1BFcQ",
     "name": {
       "en": "String Quartet No.4 (2018)",
@@ -35,6 +37,7 @@
     "id": 3,
     "type": "VIDEO",
     "date": "2019-04-18",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=Pv7kkRVZIEc",
     "name": {
       "en": "\"7 Miniatures\" (2012 - 2013)",
@@ -51,6 +54,7 @@
     "id": 4,
     "type": "VIDEO",
     "date": "2019-05-01",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
     "name": {
       "en": "»Berkut« (2014)",
@@ -67,6 +71,7 @@
     "id": 5,
     "type": "VIDEO",
     "date": "2019-05-16",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=oln1JrCDsJc",
     "name": {
       "en": "\"Ballata monologo e Allegro energico\" (2007)",
@@ -83,6 +88,7 @@
     "id": 6,
     "type": "VIDEO",
     "date": "2019-06-26",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=cQtm9GsmasM",
     "name": {
       "en": "Miniature 6 \"Unreal Bells\"\n",
@@ -99,6 +105,7 @@
     "id": 7,
     "type": "VIDEO",
     "date": "2019-04-16",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=v_PDvLfKBIE",
     "name": {
       "en": "»Traerp« (2014)",
@@ -115,6 +122,7 @@
     "id": 8,
     "type": "AUDIO",
     "date": "2019-08-20",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://soundcloud.com/arsen-babajanyan-3/arsen-babajanyan-to-to-unknown-soldier-after-p-celan",
     "name": {
       "en": "To “To Unknown Soldier” (2015)",
@@ -131,6 +139,7 @@
     "id": 9,
     "type": "VIDEO",
     "date": "2019-08-20",
+    "thumb": "/gallery/media/media_1.jpg",
     "url": "https://www.youtube.com/watch?v=EYS8VIDNo9I",
     "name": {
       "en": "Today (2015)",

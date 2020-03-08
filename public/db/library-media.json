@@ -1,10 +1,10 @@
 [
   {
     "thumb": "/gallery/media/media_1.jpg",
-    "title": { "en": "Die Kreuzigung Christi", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Making of \"Die Kreuzigung Christi\"", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
-      "en": "#PinaCaravaggisti | Alte Pinakothec <br> 17.04.2019",
+      "en": "Short film about my compositions \"Die Kreuzigung Christi\" written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition, <br><br>München | Alte Pinakothek | 17.4.–21.7.2019\n  ",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -15,7 +15,9 @@
     "type": "audio",
     "title": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
-      "en": "Interview with composer Arsen Babajanyan on Shoghakat TV <br>(in Armenian)",
+      "en1": "(in Armenian) <br><br>An interview with composer Arsen Babajanyan on Shoghakat TV about \"Yerevan 2800 \" event series organized by ARTCONCEPT International Association",
+      "en": "Short film about my compositions \"Die Kreuzigung Christi\" written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition, <br><br>München | Alte Pinakothek | 17.4.–21.7.2019\n  ",
+
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
