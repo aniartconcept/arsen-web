@@ -1,41 +1,39 @@
 export default [
   {
-    date: '2020-01-26',
-    title: { en: 'Piano Miniatures in Australia', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
+    date: 'March 16, 2020',
+    title: { en: 'Studio concert of the saxophone class Prof. Koryun Asatryan', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
     desc: {
-      en:
-        'New year - new continent!\n Jelena Stojkovic is continuing her tour with a nice program. This time the next stop is Australia! 26th of January 2020, 1:30 pm AEDT',
+      en: 'The premiere of Arsen Babajanyan\'s new piece. Munich, Gasteig, Small concert hall. Entry is Free.',
       hy:
         'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
       ru:
         'Rus Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.'
     },
-    url: 'https://www.facebook.com/photo.php?fbid=2831544890231646&set=a.550175168368641&type=3&theater'
+    url: 'https://website.musikhochschule-muenchen.de/de/index.php?option=com_content&task=view&id=1411&Itemid=602&GID=0x2f58df5155ca468093cdae340d4bc5b1&TGID=0xdae1127cbca349f8a7650468351fedbb&fbclid=IwAR23KXEbXRBphfhp8r7JbePqG4vag5wgAEZJOvosJ5CfNcrEiINJeakWxO8'
+  },
+  {
+    date: 'March 22, 2020',
+    title: { en: 'Odeon Concert: »Varieté«\n', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
+    desc: {
+      en: 'Performance of Arsen Babajanyan\'s new piece. Performers: Koryun Asatryan (saxophon) and HMTM students\n. Munich | All Saints\' Court Church\n',
+      hy:
+          'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
+      ru:
+          'Rus Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.'
+    },
+    url: 'https://website.musikhochschule-muenchen.de/de/index.php?option=com_content&task=view&id=1411&Itemid=602&GID=0x2f58df5155ca468093cdae340d4bc5b1&TGID=0xdae1127cbca349f8a7650468351fedbb&fbclid=IwAR23KXEbXRBphfhp8r7JbePqG4vag5wgAEZJOvosJ5CfNcrEiINJeakWxO8'
   },
   {
     date: '2020',
     title: { en: 'Goodbye, Bird Opera', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
     desc: {
       en:
-        'The premiere of Goodbye, Bird opera is expecting at the end of 2020 in Munich!',
+          'The premiere of Goodbye, Bird opera is expecting at the end of 2020 in Munich!',
       hy:
-        'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
+          'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
       ru:
-        'Rus Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.'
+          'Rus Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.'
     },
     url: 'https://www.facebook.com/Goodbye-Bird-Opera-351535078801614/?ref=bookmarks'
-  },
-  {
-    date: '2020-03-18',
-    title: { en: 'Odeon Concert Series', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
-    desc: {
-      en:
-          'The premiere of new work is expecting in March, 2020!',
-      hy:
-        'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
-      ru:
-        'Rus Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.'
-    },
-    url: ''
   }
 ];

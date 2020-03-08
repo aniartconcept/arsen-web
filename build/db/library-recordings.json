@@ -4,13 +4,14 @@
     "type": "VIDEO",
     "date": "2019-04-16",
     "url": "https://www.youtube.com/watch?v=Bw5EZM6GIPU&t=49s",
+    "thumb": "/gallery/recordings/recordings-1.jpg",
     "name": {
-      "en": "Audioguide | Die Kreuzigung Christi | #PinaCaravaggisti",
+      "en": "Die Kreuzigung Christi (2019)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "UTRECHT, CARAVAGGIO UND EUROPA, München | Alte Pinakothek | 17.4.–21.7.2019",
+      "en": "Composition written specially for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition <br> München | Alte Pinakothek | 17.4.–21.7.2019",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -19,94 +20,15 @@
     "id": 2,
     "type": "VIDEO",
     "date": "2019-04-17",
+    "thumb": "/gallery/recordings/recordings-2.jpg",
     "url": "https://www.youtube.com/watch?v=pQI7TP1BFcQ",
     "name": {
-      "en": "String Quartet No.4",
+      "en": "String Quartet No.4 (2018)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "Three fragments out of Shakespeare's „A Midsummer Night’s Dream“) for Sopranօ und String Quartet",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 3,
-    "type": "VIDEO",
-    "date": "2019-04-18",
-    "url": "https://www.youtube.com/watch?v=Pv7kkRVZIEc",
-    "name": {
-      "en": "Miniatures performed by Hayk Melikyan",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "Miniatures written 2012-2013\n",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 4,
-    "type": "VIDEO",
-    "date": "2019-05-01",
-    "url": "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
-    "name": {
-      "en": "»Berkut«",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "Live recording from Kleiner Konzertsaal, Gasteig, Munich, 2014",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 5,
-    "type": "VIDEO",
-    "date": "2019-05-16",
-    "url": "https://www.youtube.com/watch?v=oln1JrCDsJc",
-    "name": {
-      "en": "Ballata monologo e Allegro energico",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "For Big Orchestra",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 6,
-    "type": "VIDEO",
-    "date": "2019-06-26",
-    "url": "https://www.youtube.com/watch?v=cQtm9GsmasM",
-    "name": {
-      "en": "Artur Avanesov Miniature 6 \"Unreal Bells\"",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "For Big Orchestra",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 7,
-    "type": "VIDEO",
-    "date": "2019-04-16",
-    "url": "https://www.youtube.com/watch?v=v_PDvLfKBIE",
-    "name": {
-      "en": "»Traerp« (2014)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "For Big Orchestra",
+      "en": "Three fragments out of Shakespeare's „A Midsummer Night’s Dream“ <br> for Soprano und String Quartet <br> Performers: Julia Moorman - Sopran, »Zentaur« Quartet <br><br> Recorded at UdK, Berlin, 21.01.2018 <br> Award of the Elsa Wera Arnold Foundation in composition",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -115,14 +37,15 @@
     "id": 8,
     "type": "AUDIO",
     "date": "2019-08-20",
+    "thumb": "/gallery/recordings/recordings-8.jpg",
     "url": "https://soundcloud.com/arsen-babajanyan-3/arsen-babajanyan-to-to-unknown-soldier-after-p-celan",
     "name": {
-      "en": "To “To Unknown Soldier”",
+      "en": "To “To Unknown Soldier” (2015)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "For Big Orchestra",
+      "en": "for Tape",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -131,14 +54,101 @@
     "id": 9,
     "type": "VIDEO",
     "date": "2019-08-20",
+    "thumb": "/gallery/recordings/recordings-9.jpg",
     "url": "https://www.youtube.com/watch?v=EYS8VIDNo9I",
     "name": {
-      "en": "Today",
+      "en": "Today (2015)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "2015",
+      "en": "Music by Arsen Babajanyan <br> Photo by Mane Hovhannisyan",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 7,
+    "type": "VIDEO",
+    "date": "2019-04-16",
+    "thumb": "/gallery/recordings/recordings-7.jpg",
+    "url": "https://www.youtube.com/watch?v=v_PDvLfKBIE",
+    "name": {
+      "en": "»Traerp« (2014)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for 12 performers <br> 1. Den Grund durchreissend, (attacca) | 00:07 <br> 2. Lichtbrücke (Oboe solo), (attacca) | 04:05 <br>3. Schichten, (attacca) | 06:06 <br> 4. CodaKanal | 09:23 <br><br> Performed by: \"ensemble ö! & Convergence\" \nEnsemble<br> Conductor: Andreas Brenner\n<br><br>Non professional live recording from \nconcert in Lausanne, Hemu, Utopia I, 11.12.2014 <br>(8th pre-art competition, 1st prize)",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 4,
+    "type": "VIDEO",
+    "date": "2019-05-01",
+    "thumb": "/gallery/recordings/recordings-4.jpg",
+    "url": "https://www.youtube.com/watch?v=Q-tqmV2BsVc",
+    "name": {
+      "en": "»Berkut« (2014)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for piano <br> Performers: Arsen Babajanyan - piano, Ara Ghazaryan - editing <br><br>Live recording from Kleiner Konzertsaal, Gasteig, Munich, 2014",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+
+  {
+    "id": 3,
+    "type": "VIDEO",
+    "date": "2019-04-18",
+    "thumb": "/gallery/recordings/recordings-3.jpg",
+    "url": "https://www.youtube.com/watch?v=Pv7kkRVZIEc",
+    "name": {
+      "en": "\"7 Miniatures\" (2012 - 2013)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "Miniature 1 | 00:12 <br> Miniature 2 | 01:52 <br> Miniature 3 (Hommage à Paweł Mykietyn) | 02:36 <br>Miniature 4 | 03:45 <br> Miniature 5 | 05:05 <br> Miniature 6 (\"Unreal Bells\") | 06:15 <br> Miniature 7 (\"Ich kehre nach Hause zurück...\") | 08:00 <br><br> Performed by: Hayk Melikyan (piano) <br> Recorded in Cafesjian Center for the Arts, Yerevan, 2014",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 6,
+    "type": "VIDEO",
+    "date": "2019-06-26",
+    "thumb": "/gallery/recordings/recording-6.jpg",
+    "url": "https://www.youtube.com/watch?v=cQtm9GsmasM",
+    "name": {
+      "en": "Miniature 6 \"Unreal Bells\"\n (2012 - 2013)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "from \"7 Miniatures\" <br>Performed by: Artur Avanesov (piano) <br><br> Live performance, March 2017\n",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 5,
+    "type": "VIDEO",
+    "date": "2019-05-16",
+    "thumb": "/gallery/recordings/recordings-5.jpg",
+    "url": "https://www.youtube.com/watch?v=oln1JrCDsJc",
+    "name": {
+      "en": "\"Ballata monologo e Allegro energico\" (2007)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for violin and piano <br> Performers: Ani Karapetyan - violin, Elen Kirakosyan - piano <br><br> Live recording from 1st Chamber Music Festival (2008) <br> Yerevan, Armenia",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }

@@ -4,81 +4,90 @@
     "title": { "en": "Making of \"Die Kreuzigung Christi\"", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
-      "en": "Short film about my compositions \"Die Kreuzigung Christi\" written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition, <br><br>München | Alte Pinakothek | 17.4.–21.7.2019\n  ",
+      "en": "Short film about \"Die Kreuzigung Christi\" composition written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition. (in German) <br><br>Munich | Alte Pinakothek | 17.4.–21.7.2019\n  ",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://www.youtube.com/watch?v=R190TPqab80&t=6s"
   },
   {
-    "thumb": "/gallery/media/media_2.jpg",
-    "type": "audio",
-    "title": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "type": "press",
+    "thumb": "/gallery/media/media-11.jpg",
+    "title": { "en": "Interview - I AM YEREVAN", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
-      "en1": "(in Armenian) <br><br>An interview with composer Arsen Babajanyan on Shoghakat TV about \"Yerevan 2800 \" event series organized by ARTCONCEPT International Association",
-      "en": "Short film about my compositions \"Die Kreuzigung Christi\" written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition, <br><br>München | Alte Pinakothek | 17.4.–21.7.2019\n  ",
-
+      "en": "Talk with composer Arsen Babajanyan in I AM YEREVAN portal about the music, life and much more. (in English) <br><br> Yerevan, Armenia, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
-    "url": "https://www.youtube.com/watch?v=Y-1Up-q6b-Q"
-  },
-  {
-    "type": "video",
-    "thumb": "/gallery/media/media_3.jpg",
-    "title": { "en": "OPUS 3 - Interview", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
-    "desc": { "en": "Arsen Babajanyan and Mane Hovhannisyan about the festival OPUS 3 on the program Morning in Shant TV (Interview in Armenian)", "hy": "", "ru": "" },
-    "url": "https://www.youtube.com/watch?v=cGa2pRrrYO4"
-  },
-  {
-    "type": "audio",
-    "thumb": "/gallery/media/media_8.jpg",
-    "title": { "en": "Competition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
-    "desc": {
-      "en": "3rd Prize for Composition by Felix Mendelssohn Bartholdy <br> Conservatory Competition, Berlin",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
-      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
-    },
-    "url": "https://www.fmb-hochschulwettbewerb.de/babajanyan-arsen-muenchen-2/"
-  },
-  {
-    "type": "audio",
-    "thumb": "/gallery/media/media_4.jpg",
-    "title": { "en": "Radio Liberty - Interview", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
-    "desc": {
-      "en": "Conversation of Radio Liberty with composer Arsen Babajanyan (in Armenian)",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
-      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
-    },
-    "url": "https://www.youtube.com/watch?v=KugIWkuhdIE"
+    "url": "https://iamyerevan.com/arsen-babajanyan/"
   },
   {
     "type": "audio",
     "thumb": "/gallery/media/media_5.jpg",
-    "title": { "en": "Public Radio of Armenia", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "title": { "en": "Interview - Public Radio of Armenia", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
-      "en": "Interview about the interactions between music and visual art within the frame of the programm “Vernatun”, Public Radio (in Armenian) ",
+      "en": "Interview about the interactions between music and visual art within the frame of the program “Vernatun”, Public Radio. (in Armenian) <br><br> Yerevan, Armenia, 2019 ",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://soundcloud.com/armradio/04032019a-1"
   },
   {
-    "type": "audio",
-    "thumb": "/gallery/media/media_6.jpg",
-    "title": { "en": "Public Radio of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
-    "desc": { "en": "Review about the international music festival Yuri Hayrapetyan-85.", "hy": "", "ru": "" },
-    "url": "https://soundcloud.com/armradio/29102018a-5"
-  },
-  {
-    "type": "audio",
+    "type": "press",
     "thumb": "/gallery/media/media_7.jpg",
-    "title": { "en": "Interview with Bravo.am", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "title": { "en": "Interview in BRAVO.AM", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
-      "en": "Interview about “Goodbye, Bird“ opera and not only",
+      "en": "Short talk with Arsen Babajanyan about his recent activity and new \"Goodbye, Bird\" chamber opera project. (in Armenian) <br><br> Yerevan, Armenia, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://bravo.am/news/%D4%B1%D6%80%D5%BD%D5%A5%D5%B6_%D4%B2%D5%A1%D5%A2%D5%A1%D5%BB%D5%A1%D5%B6%D5%B5%D5%A1%D5%B6%D5%AB_%D5%AF%D5%A1%D5%B4%D5%A5%D6%80%D5%A1%D5%B5%D5%AB%D5%B6_%D6%85%D5%BA%D5%A5%D6%80%D5%A1%D5%B6___%D5%91%D5%BF%D5%A5%D5%BD%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6__%D4%BE%D5%AB%D5%BF__%D5%BE%D5%A5%D5%BA%D5%AB_%D5%B0%D5%AB%D5%B4%D5%A1%D5%B6_%D5%BE%D6%80%D5%A1_58169?fbclid=IwAR3kUotvkdhKxU8X2RGhsqtktJZS_8OFrcVZeq210k8i22KR7NNMjePsUM4"
+  },
+  {
+    "type": "audio",
+    "thumb": "/gallery/media/media_6.jpg",
+    "title": { "en": "Interview - Public Radio of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "ARTCONCEPT International Association's Art Director Arsen Babajanyan is talking about the International Music festival Yuri Hayrapetyan-85 during the program “Vernatun”, Public Radio of Armenia. (in Armenian) <br><br> Yerevan, Armenia, 2018 ", "hy": "", "ru": "" },
+    "url": "https://soundcloud.com/armradio/29102018a-5"
+  },
+  {
+    "thumb": "/gallery/media/media_2.jpg",
+    "type": "video",
+    "title": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "desc": {
+      "en": "An interview with composer Arsen Babajanyan on Shoghakat TV about \"Yerevan 2800 \" event series organized by ARTCONCEPT International Association. (in Armenian)<br><br> Yerevan, Armenia, 2018",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "https://www.youtube.com/watch?v=Y-1Up-q6b-Q"
+  },
+  {
+    "type": "press",
+    "thumb": "/gallery/media/media_8.jpg",
+    "title": { "en": "Mendelssohn Composition Competition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "desc": {
+      "en": "Short review about Arsen Babajanyan (3rd prize in composition) in scope of <b>\"Felix Mendelssohn Bartholdy Conservatory Competition</b>\". (in German) <br><br>Berlin, Germany, 2018",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "https://www.fmb-hochschulwettbewerb.de/babajanyan-arsen-muenchen-2/"
+  },
+  {
+    "type": "video",
+    "thumb": "/gallery/media/media_3.jpg",
+    "title": { "en": "Interview - OPUS 3", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "Arsen Babajanyan and Mane Hovhannisyan are talking about the festival \"OPUS 3\" during the program \"Morning in Shant TV\". (in Armenian)<br><br> Yerevan, Armenia, 2017", "hy": "", "ru": "" },
+    "url": "https://www.youtube.com/watch?v=cGa2pRrrYO4"
+  },
+  {
+    "type": "video",
+    "thumb": "/gallery/media/media_4.jpg",
+    "title": { "en": "Interview - Radio Liberty", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "desc": {
+      "en": "Radio Liberty talk to composer Arsen Babajanyan in scope of \"OPUS 3\" festival (in Armenian) <br><br> Yerevan, Armenia, 2017",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "https://www.youtube.com/watch?v=KugIWkuhdIE"
   }
 ]

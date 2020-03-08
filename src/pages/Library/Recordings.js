@@ -19,16 +19,18 @@ const Recordings = () => {
           <li key={item.id} className="recording-item">
             <a href={item.url} target="_blank" rel="noopener noreferrer">
               <div className="line-recordings">
-                <i className={`icon icon-${item.type.toLowerCase()}`}></i>
+                {/*<i className={`icon icon-${item.type.toLowerCase()}`}></i>*/}
               </div>
               <div className="recording-item-inner">
-                {!!item.thumb && (
+                  {!!item.thumb && (
                   <div
                     style={{ backgroundImage: `url(${process.env.PUBLIC_URL + item.thumb})` }}
-                    className="recording-item-thumb"
-                  />
+                    className="recording-item-thumb">
+                      <i className={`icon icon-${item.type.toLowerCase()}`} style={{position: "relative", display: "block", paddingLeft: "0.5rem", paddingBottom: "0.5rem", color: "#d6001a",
+                          fontSize: "1.5rem"}}></i>
+                  </div>
                 )}
-                <div className="recording-item-content">
+                  <div className="recording-item-content">
                   <div className="item-name">{item.name[i18n.language]}</div>
                   <div className="item-desc" dangerouslySetInnerHTML={{ __html: item.desc[i18n.language] }}></div>
                 </div>

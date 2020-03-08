@@ -62,28 +62,28 @@ const Biography = () => {
 
             <div className="bio-item">
               <div className="item-number">03</div>
-              <div className="item-title">{data.artsAmbassador.title[lng]}</div>
+              <div className="item-title">{data.honorsPrizes.title[lng]}</div>
               <div className="item-content-wrapper">
                 <div
                   className="item-content"
-                  dangerouslySetInnerHTML={{ __html: data.artsAmbassador.content[lng] }}
+                  dangerouslySetInnerHTML={{ __html: data.honorsPrizes.content[lng] }}
                 ></div>
               </div>
-              <div className="item-image-wrapper  bottom-left">
-                <img src={Image3} className="item-image" alt="artsAmbassador" />
+              <div className="item-image-wrapper  top-left">
+                <img src={Image4} className="item-image" alt="honorsPrizes" />
               </div>
             </div>
 
             <div className="bio-item item-inverse">
               <div className="item-number">04</div>
-              <div className="item-title">{data.honorsPrizes.title[lng]}</div>
+              <div className="item-title">{data.artsAmbassador.title[lng]}</div>
               <div className="item-image-wrapper top-right">
-                <img src={Image4} className="item-image" alt="honorsPrizes" />
+                <img src={Image3} className="item-image" alt="artsAmbassador" />
               </div>
               <div className="item-content-wrapper">
                 <div
                   className="item-content"
-                  dangerouslySetInnerHTML={{ __html: data.honorsPrizes.content[lng] }}
+                  dangerouslySetInnerHTML={{ __html: data.artsAmbassador.content[lng] }}
                 ></div>
               </div>
             </div>

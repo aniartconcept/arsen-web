@@ -38,9 +38,9 @@ const UpcomingConcertsSection = () => {
               {slide.map((item, index) => (
                 <div className="slide-article" key={index}>
                   <div className="article-body">
-                    <span className="article-date">{formatDate(item.date)}</span>
+                    <span className="article-date">{item.date}</span>
                     <h5 className="article-title">{item.title[i18n.language]}</h5>
-                    <p className="article-desc">{item.desc[i18n.language]}</p>
+                    <p className="article-desc-short">{item.desc[i18n.language]}</p>
                     <div className="article-action-wrapper">
                       <a href={item.url} className="article-action" target="_blank" rel="noopener noreferrer">
                         {t('DETAILS')}
