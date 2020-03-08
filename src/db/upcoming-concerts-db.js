@@ -3,7 +3,7 @@ export default [
     date: 'March 16, 2020',
     title: { en: 'Studio concert of the saxophone class Prof. Koryun Asatryan', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
     desc: {
-      en: 'The premiere of Arsen Babajanyan\'s new piece. Munich, Gasteig, Small concert hall. Entry is Free.',
+      en: 'The premiere of Arsen Babajanyan\'s new piece. <br> Munich, Gasteig, Small concert hall. <br>Entry is Free.',
       hy:
         'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
       ru:
@@ -15,7 +15,7 @@ export default [
     date: 'March 22, 2020',
     title: { en: 'Odeon Concert: »Varieté«\n', hy: 'arm goodbye, bird', ru: 'rus goodbye, bird' },
     desc: {
-      en: 'Performance of Arsen Babajanyan\'s new piece. Performers: Koryun Asatryan (saxophon) and HMTM students\n. Munich | All Saints\' Court Church\n',
+      en: 'Performance of Arsen Babajanyan\'s new piece. Performers: Koryun Asatryan (saxophon) and HMTM students. <br> Munich | All Saints\' Court Church\n',
       hy:
           'Arm Lorem ipsum dolor sit amet, consectetil adipiscing elit, sed do eiusmod tempoal incididunt ut labore et dolore magna ala.',
       ru:
