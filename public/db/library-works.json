@@ -570,21 +570,6 @@
     }
   },
   {
-    "id": 40,
-    "type": "CYCLES",
-    "date": "2011",
-    "name": {
-      "en": "Cycle (2011)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "for Flute and Piano",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
     "id": 41,
     "type": "CYCLES",
     "date": "2009",
