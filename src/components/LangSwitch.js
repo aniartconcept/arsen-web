@@ -13,9 +13,9 @@ const LangSwitch = () => {
     <ul className="lang-switch">
       {languages.map(({ key, label }) => (
         <li key={key}>
-          <button className={`unstyled ${i18n.language === key ? 'active' : ''}`} onClick={() => changeLanguage(key)}>
-            {label}
-          </button>
+          {/*<button className={`unstyled ${i18n.language === key ? 'active' : ''}`} onClick={() => changeLanguage(key)}>*/}
+          {/*  {label}*/}
+          {/*</button>*/}
         </li>
       ))}
     </ul>

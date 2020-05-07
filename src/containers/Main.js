@@ -8,6 +8,7 @@ import Biography from 'pages/Biography';
 import Library from 'pages/Library';
 import Footer from 'components/Footer';
 import Highlights from '../pages/Highlights';
+import HighlightsDetail from "../pages/HighlightsDetail";
 
 const getKye = ({ pathname, key }) => {
   const parts = pathname.split('/');
@@ -25,6 +26,7 @@ const Main = ({ location }) => {
             <Route exact path="/" component={Home} />
             <Route exact path="/biography" component={Biography} />
             <Route exact path="/highlights" component={Highlights} />
+            <Route exact path="/highlights/goodbye-bird" component={HighlightsDetail} />
             <Route path="/library" component={Library} />
             <Redirect to="/" />
           </Switch>

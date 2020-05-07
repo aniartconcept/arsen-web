@@ -1,5 +1,30 @@
 {
-  "HEADER_HOME": "Տուն))",
-  "HOME_HERO_CAPTION": "ԱՐՍԵՆԲԱԲԱՋԱՆՅԱՆ",
-  "BIO_HERO_TITLE": "ԱՐՍԵՆ <br /> ԲԱԲԱՋԱՆՅԱՆ"
+  "HEADER_HOME": "Home",
+  "ARSEN_BABAJANYAN": "Arsen Babajanyan",
+  "HOME_HERO_CAPTION": "ARSENBABAJANYAN",
+  "UPCOMING_CONCERTS": "Upcoming Concerts",
+  "DETAILS": "More",
+  "HIGHLIGHTS": "Highlights",
+  "CONTACTS": "Contacts",
+  "CONTACT_ADDRESS": "Delpstrasse 31, 80802, Munich Germany",
+  "FOOTER_TEXT_1": "Designed By Lilit Smbatyan",
+  "FOOTER_TEXT_2": "2020 All Rights Resserved",
+  "BIOGRAPHY": "Biography",
+  "BIO_HERO_TITLE": "ARSEN <br /> BABAJANYAN",
+  "BIO_HERO_DESC": "Was born in Yerevan, Armenia in 1986. After taking his bachelor's and masters degrees in homeland, he moved to Warsaw  in 2012 and completed a six-month study with the\ncomposer Paweł Mykietyn. From 2012 to 2018 Arsen Babajanyan continued his\nmaster studies at the University of Music and Performing Arts Munich in the composition\nclass of Prof. Jan Müller-Wieland. Simaltenously he completed  Postgraduation in Conservatory for Music and Theater, Graz  in subject \"Composition and Music Theory\"\n with  Prof. Beat Furrer. ",
+  "LIBRARY": "Library",
+  "ORCHESTRA": "Orchestra",
+  "ENSAMBLE": "Ensamble",
+  "CHAMBER": "Chamber",
+  "CYCLES": "Cycles",
+  "SOLO": "Solo",
+  "OTHER": "Other",
+
+  "RECORDINGS": "Recordings",
+  "WORKS": "Works",
+  "MEDIA": "Media",
+  "EVENTS": "Events",
+  "PUBLISHED_WORKS": "Published Works",
+  "HIGHLIGHTS": "Highlights",
+  "MORE": "Read More"
 }

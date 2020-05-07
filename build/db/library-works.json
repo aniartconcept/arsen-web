@@ -4,12 +4,12 @@
     "type": "ORCHESTRA",
     "date": "2018",
     "name": {
-      "en": "Flourishing Flowers and Prelude to the Revelry of the Gecko (2018)",
+      "en": "\"Flourishing Flowers and Prelude to the Revelry of the Gecko\" (2018)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for big orchestra",
+      "en": "for big symphony orchestra",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -19,7 +19,7 @@
     "type": "ORCHESTRA",
     "date": "2014",
     "name": {
-      "en": "Oriental ornaments (2014)",
+      "en": "\"Oriental ornaments\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -34,12 +34,12 @@
     "type": "ORCHESTRA",
     "date": "2009",
     "name": {
-      "en": "Hannibal (2009)",
+      "en": "\"Hannibal\" (2009)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for symphonic picture",
+      "en": "symphonic picture",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -49,7 +49,7 @@
     "type": "ORCHESTRA",
     "date": "2008",
     "name": {
-      "en": "Barkoos (2008)",
+      "en": "\"Barkoos\" (2008)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -64,7 +64,7 @@
     "type": "ORCHESTRA",
     "date": "2008",
     "name": {
-      "en": "Black Hall (2008)",
+      "en": "\"Black Hall\" (2008)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -79,7 +79,7 @@
     "type": "ENSAMBLE",
     "date": "2014",
     "name": {
-      "en": "Traerp (2014)",
+      "en": "\"Traerp\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -94,7 +94,7 @@
     "type": "ENSAMBLE",
     "date": "2016",
     "name": {
-      "en": "Two pieces (2016)",
+      "en": "\"Two pieces\" (2016)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -109,7 +109,7 @@
     "type": "ENSAMBLE",
     "date": "2014",
     "name": {
-      "en": "Arkanoids (2014)",
+      "en": "\"Arkanoids\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -121,7 +121,7 @@
   },
   {
     "id": 9,
-    "type": "ENSAMBLE",
+    "type": "POIEMA",
     "date": "2013",
     "name": {
       "en": "Poiema IV (2013)",
@@ -136,7 +136,7 @@
   },
   {
     "id": 10,
-    "type": "ENSAMBLE",
+    "type": "POIEMA",
     "date": "2013",
     "name": {
       "en": "Poiema III (2013)",
@@ -151,7 +151,7 @@
   },
   {
     "id": 11,
-    "type": "ENSAMBLE",
+    "type": "POIEMA",
     "date": "2009",
     "name": {
       "en": "Poiema II (2009)",
@@ -166,7 +166,7 @@
   },
   {
     "id": 12,
-    "type": "ENSAMBLE",
+    "type": "POIEMA",
     "date": "2008",
     "name": {
       "en": "Poiema I (2008)",
@@ -184,7 +184,7 @@
     "type": "ENSAMBLE",
     "date": "2007",
     "name": {
-      "en": "Influence(2007)",
+      "en": "\"Influence\"(2007)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -229,7 +229,7 @@
     "type": "CHAMBER",
     "date": "2015",
     "name": {
-      "en": "String quartet No.3: “Masqenparade” (2015)",
+      "en": "String quartet No.3: \"Masqenparade\" (2015)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -244,7 +244,7 @@
     "type": "CHAMBER",
     "date": "2014",
     "name": {
-      "en": "String quartet No. 2: “Ornaments and constructions” (2014)",
+      "en": "String quartet No. 2: \"Ornaments and constructions\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -289,7 +289,7 @@
     "type": "CHAMBER",
     "date": "2018",
     "name": {
-      "en": "Gretchen's room (2018)",
+      "en": "\"Gretchen's room\" (2018)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -319,22 +319,22 @@
     "type": "CHAMBER",
     "date": "2014",
     "name": {
-      "en": "The hours... (2014)",
+      "en": "\"The hours...\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "Three songs for Voice and Piano based on the poems by Kai Uwe Hunsicker",
+      "en": "Three songs for female Voice and Piano",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
   },
   {
     "id": 23,
-    "type": "CHAMBER",
+    "type": "ENSAMBLE",
     "date": "2017",
     "name": {
-      "en": "Figurebook (2017)",
+      "en": "\"Figurebook\" (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -346,30 +346,30 @@
   },
   {
     "id": 24,
-    "type": "CHAMBER",
+    "type": "ENSAMBLE",
     "date": "2017",
     "name": {
-      "en": "Chain of Confession (2017)",
+      "en": "\"Chain of Confession\" (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Armenian Viola solo, Soprano saxophone, Bass zither, Accordion, Piano and Percussion",
+      "en": "for Tenor, Clarinet (or Tav Shvi) and Stringquartet (2016)",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
   },
   {
     "id": 25,
-    "type": "CHAMBER",
+    "type": "ENSAMBLE",
     "date": "2017",
     "name": {
-      "en": "The happiness of things (2017)",
+      "en": "\"The happiness of things\" (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Soprano, Aboe, Trumpet, Marimba, Piano, Violin, Violoncello",
+      "en": "for Soprano, Oboe, Trumpet, Marimba, Piano, Violin, Violoncello",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -394,12 +394,12 @@
     "type": "CHAMBER",
     "date": "2017",
     "name": {
-      "en": "Qais, Majnoun Laila (2017)",
+      "en": "\"Qais, Majnoun Laila\" (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Tenor, Clarinet in B, Cello, Tam-tam and Piatto sospeso",
+      "en": "for Tenor, Clarinet in B, Cello, Tam-tam and Suspended Cymbal",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -409,12 +409,12 @@
     "type": "CHAMBER",
     "date": "2014",
     "name": {
-      "en": "Nektar - flower (2014)",
+      "en": "\"Nektar - flower\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "scene–monologue for mezzo soprano, Clarinet (or Duduk in C), Cello and Piano",
+      "en": "scene–monologue for Mezzo-Soprano, Clarinet (or Duduk in C), Cello and Piano",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -469,7 +469,7 @@
     "type": "CHAMBER",
     "date": "2006",
     "name": {
-      "en": "Perpetual Edge From Topographic Time (2006)",
+      "en": "\"Perpetual Edge from Topographic Time\" (2006)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -504,7 +504,7 @@
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for soprano Soprano saxophone and Accordion",
+      "en": "for soprano Saxophone and Accordion",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -555,6 +555,21 @@
     }
   },
   {
+    "id": 54,
+    "type": "CYCLES",
+    "date": "2010",
+    "name": {
+      "en": "Cycle for Violin and Piano (2010)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
     "id": 39,
     "type": "CYCLES",
     "date": "2010/2013",
@@ -564,7 +579,7 @@
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Corno, Piano and Double bass",
+      "en": "for French Horn, Piano and Double bass",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -589,7 +604,7 @@
     "type": "SOLO",
     "date": "2019",
     "name": {
-      "en": "Sketches for Katharina (2019)",
+      "en": "\"Sketches for Katharina\" (2019)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -604,7 +619,7 @@
     "type": "SOLO",
     "date": "2016",
     "name": {
-      "en": "Chain of Miniatures (2016)",
+      "en": "\"Chain of Miniatures\" (2016)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -634,7 +649,7 @@
     "type": "SOLO",
     "date": "2014",
     "name": {
-      "en": "Painted necklace from the past (2014)",
+      "en": "\"Painted necklace from the past\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -649,7 +664,7 @@
     "type": "SOLO",
     "date": "2015",
     "name": {
-      "en": "Kochari (2015)",
+      "en": "\"Kochari\" (2015)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -664,7 +679,7 @@
     "type": "SOLO",
     "date": "2016",
     "name": {
-      "en": "Shreds of Regret (2016)",
+      "en": "\"Shreds of Regret\" (2016)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -679,7 +694,7 @@
     "type": "SOLO",
     "date": "2012-2013",
     "name": {
-      "en": "Piano Miniatures (2012-2013)",
+      "en": "7 Miniatures for Piano (2012-2013)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -694,12 +709,12 @@
     "type": "SOLO",
     "date": "2007",
     "name": {
-      "en": "Pictures from city (2007)",
+      "en": "\"Pictures from city\" (2007)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "Piano album",
+      "en": "Piano Album",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -729,7 +744,22 @@
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Tape",
+      "en": "tape",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 54,
+    "type": "OTHER",
+    "date": "2013",
+    "name": {
+      "en": "\"Oggi\" (2015)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for electronic music and live reading performance (Poetry by Tamar Hayduke)",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -739,12 +769,12 @@
     "type": "OTHER",
     "date": "2014",
     "name": {
-      "en": "The Shepherd’s song (2014)",
+      "en": "\"The Shepherd’s song\" (2014)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "music for film",
+      "en": "music for film (Director: Vahram Mkhitaryan, Poland)",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -754,12 +784,12 @@
     "type": "OTHER",
     "date": "2013",
     "name": {
-      "en": "Wood man (2013)",
+      "en": "\"Wood man\" (2013)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "music for theatre",
+      "en": "music for theatre (Director: Suren Safaryan, Armenia)",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }

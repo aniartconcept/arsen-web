@@ -8,7 +8,7 @@ export default [
       hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
       ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
     },
-    url: 'https://www.citedesartsparis.net/fr/concert-arsen-babajanyan--portrait-of-composer'
+    url: '/highlights/detail'
   },
   {
     date: '2019-04-17',
@@ -30,6 +30,6 @@ export default [
       hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
       ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
     },
-    url: 'https://www.facebook.com/pg/Goodbye-Bird-Opera-351535078801614/about/?ref=page_internal'
+    url: '/highlights/goodbye-bird'
   }
 ];

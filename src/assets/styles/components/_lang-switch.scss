@@ -2,7 +2,7 @@
   position: absolute;
   top: 25%;
   left: 1.5rem;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -14,9 +14,11 @@
     margin-bottom: 2rem;
   }
   li {
+    display: block;
     margin-bottom: 1.9rem;
   }
   button {
+    display: block;
     transform: rotate(-90deg);
     transition: color 0.5s;
     &.active,

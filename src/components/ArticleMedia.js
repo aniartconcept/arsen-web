@@ -21,6 +21,7 @@ const ArticleMedia = ({ data, onClick }) => {
       </div>
       <div className="article-body-media">
         <h5 className="article-title-media"><span>{data.title[i18n.language]}</span></h5>
+         <span className="article-desc">Interview in Bravo.am</span>
           <p className="article-desc" dangerouslySetInnerHTML={{ __html: data.desc[i18n.language] }}></p>
           <div className="article-action-wrapper-media">
               <a href={data.url} className="article-action" target="_blank" rel="noopener noreferrer">

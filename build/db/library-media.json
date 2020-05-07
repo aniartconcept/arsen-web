@@ -35,7 +35,7 @@
   {
     "type": "press",
     "thumb": "/gallery/media/media_7.jpg",
-    "title": { "en": "Interview in BRAVO.AM", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "title": { "en": "About \"Goodbye, Bird\" chamber opera", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
       "en": "Short talk with Arsen Babajanyan about his recent activity and new \"Goodbye, Bird\" chamber opera project. (in Armenian) <br><br> Yerevan, Armenia, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -89,5 +89,27 @@
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://www.youtube.com/watch?v=KugIWkuhdIE"
+  },
+  {
+    "type": "press",
+    "thumb": "/gallery/media/media_12.jpg",
+    "title": { "en": "Interview in Cultural.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "desc": {
+      "en": "",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "http://cultural.am/hy/norutyunner/harcazruyc/3294-uzum-en-arvestov-parzajrel-naxyntrakan-aroryan?fbclid=IwAR2nNJNS8DC5p7jLXcRSh8N8bGAyYAZhCsESpuEeVv7s1G9SUrOMFmMDmyY"
+  },
+  {
+    "type": "press",
+    "thumb": "/gallery/media/media_13.jpg",
+    "title": { "en": "Interview in Cultural.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "desc": {
+      "en": "",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "http://cultural.am/hy/norutyunner/harcazruyc/1408-bayc-da-imy-cher-ev-es-dranc-hamar-srtacav-chei"
   }
 ]

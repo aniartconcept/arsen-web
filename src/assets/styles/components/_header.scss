@@ -17,10 +17,12 @@
   position: relative;
   z-index: 222;
   h1 {
-    color: $primary;
+    color: white;
     font-size: 1rem;
+    text-transform: uppercase;
     margin: 0;
     a {
+      color: white;
       transition: color $transition_duration;
       text-decoration: none;
     }
