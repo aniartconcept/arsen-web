@@ -13,7 +13,7 @@ const Library = ({ history }) => {
   useEffect(() => {
     if (history.location.pathname.includes('/library/')) {
       const header = document.querySelector('.page-header');
-      scroll.scrollTo(window.innerHeight - header.offsetHeight + 1);
+      scroll.scrollTo(window.innerHeight - header.offsetHeight + 20);
     }
   }, [history.location.pathname]);
 

@@ -300,16 +300,16 @@
   .article-action-wrapper-media {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 1.5rem;
     &:before {
       content: '';
       display: block;
       height: 1px;
-      flex: 1;
+      width: 2rem;
+
       background-color: $primary;
       margin-right: 0.5rem;
-      margin-left: 14rem;
     }
     a {
       text-decoration: none;
@@ -340,9 +340,13 @@
     padding: 3rem 0;
     border: 0;
     box-shadow: none !important;
-    &.media-article .article-title .article-title-line-media {
-      top: 2rem;
+    &.media-article .article-title {
+      top: 1.5rem;
+      .article-title-line-media {
+        top: 2rem;
+      }
     }
+
     .article-desc {
       height: auto;
       &:empty {

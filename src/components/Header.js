@@ -32,7 +32,7 @@ const Header = () => {
         </h1>
         <button className={`header-menu-toggle unstyled ${show ? 'in' : ''}`} onClick={() => setShow(!show)} />
       </div>
-      <CSSTransition in={show} timeout={{ enter: 2200, exit: 2200 }} unmountOnExit classNames="fade">
+      <CSSTransition in={show} timeout={{ enter: 1200, exit: 1200 }} unmountOnExit classNames="fade">
         <div className="header-menu">
           <div className="header-menu-backdrop" onClick={closeMenu} />
           <LangSwitch />

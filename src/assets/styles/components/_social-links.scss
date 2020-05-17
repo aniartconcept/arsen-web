@@ -35,4 +35,26 @@
     right: 10px;
     font-size: 0.875rem;
   }
+  .header-menu {
+    .social-links {
+      left: 0;
+      right: 0;
+      top: auto;
+      bottom: 40px;
+      flex-direction: row;
+      justify-content: center;
+      &:before {
+        display: none;
+      }
+      li {
+        margin: 0;
+      }
+      a {
+        display: block;
+        width: 19vw;
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+  }
 }
