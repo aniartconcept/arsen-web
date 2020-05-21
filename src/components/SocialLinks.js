@@ -2,7 +2,8 @@ import React from 'react';
 
 const SocialLinks = () => {
   return (
-    <ul className="social-links">
+      <div>
+        <ul className="social-links">
 
       <li>
         <a href="https://www.facebook.com/arsen.babajanyan.5" target="_blank" rel="noopener noreferrer">
@@ -20,7 +21,8 @@ const SocialLinks = () => {
             </a>
         </li>
     </ul>
-  );
+</div>
+);
 };
 
 export default SocialLinks;

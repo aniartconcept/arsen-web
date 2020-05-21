@@ -14,19 +14,20 @@ const ArticleEvents = ({ data, onClick }) => {
   };
   return (
     <a href={data.url} target="_blank" className="slide-article media-article" rel="noopener noreferrer">
-      <h5 className="article-title">
-        <span>{data.title[i18n.language]}</span>
-      </h5>
+      {/*<h5 className="article-title">*/}
+      {/*  <span>{data.title[i18n.language]}</span>*/}
+      {/*</h5>*/}
       <div className="article-thumb" onClick={handleClick}>
-        <Image src={process.env.PUBLIC_URL + data.thumb} alt="" />
+          <i className="icon icon-insta"></i>
+          <Image src={process.env.PUBLIC_URL + data.thumb} alt="" />
       </div>
       <div className="article-body">
         <p className="article-desc" dangerouslySetInnerHTML={{ __html: data.desc[i18n.language] }}></p>
-          <div className="article-action-wrapper-media">
-              <a href={data.url} className="article-action" target="_blank" rel="noopener noreferrer">
-                  {t('DETAILS')}
-              </a>
-          </div>
+          {/*<div className="article-action-wrapper-media">*/}
+          {/*    <a href={data.url} className="article-action" target="_blank" rel="noopener noreferrer">*/}
+          {/*        {t('DETAILS')}*/}
+          {/*    </a>*/}
+          {/*</div>*/}
       </div>
     </a>
   );

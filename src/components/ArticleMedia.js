@@ -20,12 +20,13 @@ const ArticleMedia = ({ data, onClick }) => {
         <Image src={process.env.PUBLIC_URL + data.thumb} alt="" />
       </div>
       <div className="article-body-media">
-        <h5 className="article-title-media"><span>{data.title[i18n.language]}</span></h5>
-         <span className="article-desc">Interview in Bravo.am</span>
+        {/*<h5 className="article-title-media"><span>{data.short[i18n.language]}</span></h5>*/}
+          <span className="article-title-media">{data.short[i18n.language]}</span>
+         <span className="article-title-short">{data.title[i18n.language]}</span>
           <p className="article-desc" dangerouslySetInnerHTML={{ __html: data.desc[i18n.language] }}></p>
           <div className="article-action-wrapper-media">
               <a href={data.url} className="article-action" target="_blank" rel="noopener noreferrer">
-                  {t('DETAILS')}
+                  {data.buttontxt[i18n.language]}
               </a>
           </div>
 

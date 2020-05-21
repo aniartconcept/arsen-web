@@ -1,7 +1,9 @@
 [
   {
     "thumb": "/gallery/media/media_1.jpg",
-    "title": { "en": "Making of \"Die Kreuzigung Christi\"", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Making of \"Die Kreuzigung Christi\"", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Alte Pinakothek", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Watch", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
       "en": "Short film about \"Die Kreuzigung Christi\" composition written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition. (in German) <br><br>Munich | Alte Pinakothek | 17.4.–21.7.2019\n  ",
@@ -11,9 +13,11 @@
     "url": "https://www.youtube.com/watch?v=R190TPqab80&t=6s"
   },
   {
-    "type": "press",
+    "type": "press-article",
     "thumb": "/gallery/media/media-11.jpg",
-    "title": { "en": "Interview - I AM YEREVAN", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Read Article", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Interview in I AM YEREVAN portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Talk about Music, Life and much more", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
       "en": "Talk with composer Arsen Babajanyan in I AM YEREVAN portal about the music, life and much more. (in English) <br><br> Yerevan, Armenia, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -24,18 +28,22 @@
   {
     "type": "audio",
     "thumb": "/gallery/media/media_5.jpg",
-    "title": { "en": "Interview - Public Radio of Armenia", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "buttontxt": { "en": "Listen Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Interaction between Music & Visual Arts", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "title": { "en": "Interview on Public Radio of Armenia", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
-      "en": "Interview about the interactions between music and visual art within the frame of the program “Vernatun”, Public Radio. (in Armenian) <br><br> Yerevan, Armenia, 2019 ",
+      "en": "Interview about the interactions between music and visual arts within the frame of the program “Vernatun”, Public Radio. (in Armenian) <br><br> Yerevan, Armenia, 2019 ",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://soundcloud.com/armradio/04032019a-1"
   },
   {
-    "type": "press",
+    "type": "press-article",
     "thumb": "/gallery/media/media_7.jpg",
-    "title": { "en": "About \"Goodbye, Bird\" chamber opera", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "buttontxt": { "en": "Read Article", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "\"Goodbye, Bird\" chamber opera & other initiatives", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "title": { "en": "Interview in Bravo.am portal", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
       "en": "Short talk with Arsen Babajanyan about his recent activity and new \"Goodbye, Bird\" chamber opera project. (in Armenian) <br><br> Yerevan, Armenia, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -45,28 +53,56 @@
   },
   {
     "type": "audio",
+    "thumb": "/gallery/media/media-17.jpg",
+    "buttontxt": { "en": "Watch Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "High Literature with Arqmenik Nikoghosyan: Irakli Samsonadze", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "title": { "en": "Discussion in Granish Literature Community", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "desc": {
+      "en": "Arsen Babajanyan and Arqmenik Nikoghosyan are discussing  \"The Cushion\" novel authored by Irakli Samsonadze (in Armenian) <br><br> Yerevan, Armenia, 2019",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "https://www.youtube.com/watch?v=WHqi_KhToWQ"
+  },
+   {
+    "type": "audio",
     "thumb": "/gallery/media/media_6.jpg",
-    "title": { "en": "Interview - Public Radio of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
-    "desc": { "en": "ARTCONCEPT International Association's Art Director Arsen Babajanyan is talking about the International Music festival Yuri Hayrapetyan-85 during the program “Vernatun”, Public Radio of Armenia. (in Armenian) <br><br> Yerevan, Armenia, 2018 ", "hy": "", "ru": "" },
+    "buttontxt": { "en": "Listen Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "International Music Festival Yuri Hayrapetyan-85\n", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "title": { "en": "Interview on Public Radio of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "Arsen Babajanyan is talking about the ARTCONCEPT's initiative \"International Music Festival Yuri Hayrapetyan-85\" with Nazeli Ohanyan during the program “Vernatun” on Public Radio of Armenia. (in Armenian) <br><br> Yerevan, Armenia, 2018 ", "hy": "", "ru": "" },
     "url": "https://soundcloud.com/armradio/29102018a-5"
+  },
+  {
+    "type": "video",
+    "thumb": "/gallery/media/media-18.jpg",
+    "buttontxt": { "en": "Watch Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Brief of Closing Ceremony of \"Yuri Hayrapetyan-85\" festival", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "title": { "en": "Interview on Public TV of Armenia", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "Interview about the Closing Ceremony of the International Music Festival \"Yuri Hayrapetyan-85\" with composer, festival staff manager Arsen Babajanyan and director of the festival Eka Horstka within the program \"Aravot Luso\" on the Public TV of Armenia. (in Armenian) <br><br> Yerevan, Armenia, 2018 ", "hy": "", "ru": "" },
+    "url": "https://www.youtube.com/watch?v=Rycb4i6VTcc"
   },
   {
     "thumb": "/gallery/media/media_2.jpg",
     "type": "video",
-    "title": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "buttontxt": { "en": "Watch Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "The image and text of Yerevan", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "title": { "en": "Interview on Shoghakat TV", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
     "desc": {
-      "en": "An interview with composer Arsen Babajanyan on Shoghakat TV about \"Yerevan 2800 \" event series organized by ARTCONCEPT International Association. (in Armenian)<br><br> Yerevan, Armenia, 2018",
+      "en": "Arsen Babajanyan is hosted in Hayk Hambardzumyan's \"Theme\" TV program and talked about the \"Yerevan 2800 \" event series organized by ARTCONCEPT. (in Armenian)<br><br> Yerevan, Armenia, 2018",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://www.youtube.com/watch?v=Y-1Up-q6b-Q"
   },
   {
-    "type": "press",
-    "thumb": "/gallery/media/media_8.jpg",
-    "title": { "en": "Mendelssohn Composition Competition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "type": "press-article",
+    "thumb": "/gallery/media/media-14.jpg",
+    "buttontxt": { "en": "Read Article", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "3rd Prize in Composition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "title": { "en": "Review of Mendelssohn Composition Competition", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
     "desc": {
-      "en": "Short review about Arsen Babajanyan (3rd prize in composition) in scope of <b>\"Felix Mendelssohn Bartholdy Conservatory Competition</b>\". (in German) <br><br>Berlin, Germany, 2018",
+      "en": "Short review about Arsen Babajanyan in scope of <b>\"Felix Mendelssohn Bartholdy Conservatory Competition</b>\". (in German) <br><br>Berlin, Germany, 2018",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -74,39 +110,60 @@
   },
   {
     "type": "video",
+    "buttontxt": { "en": "Watch Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "thumb": "/gallery/media/media_3.jpg",
-    "title": { "en": "Interview - OPUS 3", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
-    "desc": { "en": "Arsen Babajanyan and Mane Hovhannisyan are talking about the festival \"OPUS 3\" during the program \"Morning in Shant TV\". (in Armenian)<br><br> Yerevan, Armenia, 2017", "hy": "", "ru": "" },
+    "short": { "en": "Brief of OPUS 3 International Festival", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "title": { "en": "Interview on Shant TV", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "desc": { "en": "Arsen Babajanyan and Mane Hovhannisyan are summarizing OPUS 3 International Festival during the program \"Morning in Shant TV\". (in Armenian)<br><br> Yerevan, Armenia, 2017", "hy": "", "ru": "" },
     "url": "https://www.youtube.com/watch?v=cGa2pRrrYO4"
   },
   {
     "type": "video",
     "thumb": "/gallery/media/media_4.jpg",
-    "title": { "en": "Interview - Radio Liberty", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Watch Program", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Talk about culture, politics & OPUS 3 International Festival ", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Interview on Radio Liberty", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
-      "en": "Radio Liberty talk to composer Arsen Babajanyan in scope of \"OPUS 3\" festival (in Armenian) <br><br> Yerevan, Armenia, 2017",
+      "en": "An extensive conversation from the culture to political theatre with Arsen Babajanyan on  Radio Liberty in scope of \"OPUS 3\" festival (in Armenian) <br><br> Yerevan, Armenia, 2017",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://www.youtube.com/watch?v=KugIWkuhdIE"
   },
   {
-    "type": "press",
-    "thumb": "/gallery/media/media_12.jpg",
-    "title": { "en": "Interview in Cultural.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "type": "press-article",
+    "thumb": "/gallery/media/media-12.jpg",
+    "buttontxt": { "en": "Read Article", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Highlights of OPUS 3 International Festival", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Interview in cultural.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
-      "en": "",
+      "en": "Arsen Babajanyan is talking about the OPUS 3 International Festival program and specification with Astghik Hakobyan on cultural.am portal <br><br> Yerevan, Armenia, 2017",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "http://cultural.am/hy/norutyunner/harcazruyc/3294-uzum-en-arvestov-parzajrel-naxyntrakan-aroryan?fbclid=IwAR2nNJNS8DC5p7jLXcRSh8N8bGAyYAZhCsESpuEeVv7s1G9SUrOMFmMDmyY"
   },
   {
-    "type": "press",
-    "thumb": "/gallery/media/media_13.jpg",
-    "title": { "en": "Interview in Cultural.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "type": "press-article",
+    "thumb": "/gallery/media/media-16.jpg",
+    "buttontxt": { "en": "Read Article", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Arsen Babajanyan's life & career in Germany", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Interview in Yerkir.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
     "desc": {
-      "en": "",
+      "en": "Arsen Babajanyan about his activity in Germany and other life aspects during his conversation with Karine Harutyunyan in Yerkir.am news portal. (in Armenian) <br><br>Yerevan, Armenia, 2014",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "http://www.yerkir.am/news/view/65359.html?fbclid=IwAR2jrm4cOECfv4Nw7mLwmUT4DInxyuKScGEHfO2Ow0ozAFFngSjGLLDC1ak\n"
+  },
+  {
+    "type": "press-article",
+    "buttontxt": { "en": "Read Article", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "thumb": "/gallery/media/media_13.jpg",
+    "short": { "en": "The essentials of some concepts from our life", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Interview in cultural.am portal", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "desc": {
+      "en": "Arsen Babajanyan's thoughts about the essential concepts of the life during his conversation with Elen Yolchyan on cultural.am portal.<br><br> Yerevan, Armenia, 2013",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },

@@ -75,16 +75,46 @@
     }
   },
   {
-    "id": 6,
+    "id": 23,
     "type": "ENSAMBLE",
-    "date": "2014",
+    "date": "2017",
     "name": {
-      "en": "\"Traerp\" (2014)",
+      "en": "\"Figurebook\" (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for 12 performers",
+      "en": "for Armenian Viola solo, Soprano saxophone, Bass zither, Accordion, Piano and Percussion",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 24,
+    "type": "ENSAMBLE",
+    "date": "2017",
+    "name": {
+      "en": "\"Chain of Confession\" (2017)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for Tenor, Clarinet (or Tav Shvi) and Stringquartet (2016)",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 25,
+    "type": "ENSAMBLE",
+    "date": "2017",
+    "name": {
+      "en": "\"The happiness of things\" (2017)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for Soprano, Oboe, Trumpet, Marimba, Piano, Violin, Violoncello",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -105,6 +135,21 @@
     }
   },
   {
+    "id": 6,
+    "type": "ENSAMBLE",
+    "date": "2014",
+    "name": {
+      "en": "\"Traerp\" (2014)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for 12 performers",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
     "id": 8,
     "type": "ENSAMBLE",
     "date": "2014",
@@ -119,6 +164,7 @@
       "ru": "Rus For Big Orchestra"
     }
   },
+
   {
     "id": 9,
     "type": "POIEMA",
@@ -329,51 +375,7 @@
       "ru": "Rus For Big Orchestra"
     }
   },
-  {
-    "id": 23,
-    "type": "ENSAMBLE",
-    "date": "2017",
-    "name": {
-      "en": "\"Figurebook\" (2017)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "for Armenian Viola solo, Soprano saxophone, Bass zither, Accordion, Piano and Percussion",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 24,
-    "type": "ENSAMBLE",
-    "date": "2017",
-    "name": {
-      "en": "\"Chain of Confession\" (2017)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "for Tenor, Clarinet (or Tav Shvi) and Stringquartet (2016)",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 25,
-    "type": "ENSAMBLE",
-    "date": "2017",
-    "name": {
-      "en": "\"The happiness of things\" (2017)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "for Soprano, Oboe, Trumpet, Marimba, Piano, Violin, Violoncello",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
+
   {
     "id": 26,
     "type": "CHAMBER",
@@ -484,12 +486,12 @@
     "type": "CYCLES",
     "date": "2019",
     "name": {
-      "en": "Cycle II (2019)",
+      "en": "Cycle II for Flute and Piano (2019)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Flute and Piano",
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -499,12 +501,12 @@
     "type": "CYCLES",
     "date": "2017",
     "name": {
-      "en": "Cycle (2017)",
+      "en": "Cycle for soprano Saxophone and Accordion (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for soprano Saxophone and Accordion",
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -529,12 +531,12 @@
     "type": "CYCLES",
     "date": "2013",
     "name": {
-      "en": "“Milan” cycle (2013)",
+      "en": "“Milan” cycle for Clarinet, Cello and Piano/Celesta (2013)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Clarinet, Cello and Piano/Celesta",
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -544,12 +546,12 @@
     "type": "CYCLES",
     "date": "2011",
     "name": {
-      "en": "Cycle I (2011)",
+      "en": "Cycle I for Flute and Piano (2011)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Flute and Piano",
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -574,12 +576,12 @@
     "type": "CYCLES",
     "date": "2010/2013",
     "name": {
-      "en": "Cycle (2010/2013)",
+      "en": "Cycle for French Horn, Piano and Double bass (2010/2013)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for French Horn, Piano and Double bass",
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -599,21 +601,7 @@
       "ru": "Rus For Big Orchestra"
     }
   },
-  {
-    "id": 42,
-    "type": "SOLO",
-    "date": "2019",
-    "name": {
-      "en": "\"Sketches for Katharina\" (2019)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "for solo Piano",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
+
   {
     "id": 43,
     "type": "SOLO",
@@ -670,6 +658,21 @@
     },
     "desc": {
       "en": "for solo Violin",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 42,
+    "type": "SOLO",
+    "date": "2019",
+    "name": {
+      "en": "\"Sketches for Katharina\" (2019)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for solo Piano",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }

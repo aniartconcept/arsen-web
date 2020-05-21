@@ -8,7 +8,11 @@ const Footer = () => {
     <footer className="page-footer">
       <span>{t('FOOTER_TEXT_1')}</span>
       <SocialLinks />
-      <span>© {t('FOOTER_TEXT_2')}</span>
+      <div>
+          <p className="footer-text">{t('FOOTER_TEXT_3')}</p>
+      <p className="footer-text">© {t('FOOTER_TEXT_2')}</p>
+      </div>
+
     </footer>
   );
 };

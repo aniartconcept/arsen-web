@@ -54,7 +54,7 @@
   {
     "thumb": "/gallery/events/events_8_1.jpg",
     "title": { "en": "Visual Arts in Music", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
-    "images": [{ "path": "/gallery/events/events_8_1.jpg" }, { "path": "/gallery/events/events_2_1.jpg" }],
+    "images": [{ "path": "/gallery/events/events_8_1.jpg" }],
     "desc": {
       "en": "Seminar - Listening Session with Arsen Babajanyan in Yerevan State College of Fine Arts after Panos Termelezyan <br><br> Yerevan | March 05, 2019",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
@@ -89,7 +89,7 @@
   {
     "thumb": "/gallery/events/event_5.jpg",
     "title": { "en": "Graduation Concert", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
-    "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_2.jpg" }],
+    "images": [{ "path": "/gallery/events/event_5.jpg" }],
     "desc": {
       "en": "During the concert the Arsen Babajanyan's compositions were performed by talented musicians.  <br><br>Munich | 09.02.2018",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",

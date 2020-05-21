@@ -10,7 +10,7 @@ const HeroSection = () => {
     <Section className="section-hero bio-section-hero">
       <div className="section-title">{t('BIOGRAPHY')}</div>
       <div className="section-caption">
-        <h1 dangerouslySetInnerHTML={{ __html: t('BIO_HERO_TITLE') }}></h1>
+        {/*<h1 dangerouslySetInnerHTML={{ __html: t('BIO_HERO_TITLE') }}></h1>*/}
         <p className="hero-section-desc">{t('BIO_HERO_DESC')}</p>
       </div>
       <div className="section-image" style={{ backgroundImage: `url(${Image})` }}></div>
