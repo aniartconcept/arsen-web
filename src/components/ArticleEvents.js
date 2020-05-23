@@ -13,12 +13,12 @@ const ArticleEvents = ({ data, onClick }) => {
     }
   };
   return (
-    <a href={data.url} target="_blank" className="slide-article media-article" rel="noopener noreferrer">
+    <a href={data.url} target="_blank" className="slide-article media-article event-article" rel="noopener noreferrer">
       {/*<h5 className="article-title">*/}
       {/*  <span>{data.title[i18n.language]}</span>*/}
       {/*</h5>*/}
       <div className="article-thumb" onClick={handleClick}>
-          <i className="icon icon-insta"></i>
+          <i className="icon icon-insta events-icon"></i>
           <Image src={process.env.PUBLIC_URL + data.thumb} alt="" />
       </div>
       <div className="article-body">

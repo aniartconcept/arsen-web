@@ -27,7 +27,7 @@ const Events = () => {
   }, []);
   return (
     <>
-      <div className={`library-content-container fadeIn ${current.length ? 'pointer-events-none' : ''}`}>
+      <div className={`library-content-container events-container fadeIn ${current.length ? 'pointer-events-none' : ''}`}>
         {data.map((item, index) => (
           <ArticleEvents data={item} key={index} onClick={toggleModal} />
         ))}

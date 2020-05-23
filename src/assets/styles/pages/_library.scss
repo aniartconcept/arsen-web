@@ -124,6 +124,9 @@
       box-shadow: 1px 0 0 $border-color-inverse;
     }
   }
+  &.events-container {
+    padding-top: 3rem;
+  }
 }
 
 .recordings-content-container {
@@ -387,6 +390,10 @@
   .library-content-container {
     display: block;
     padding: 1rem;
+
+    &.events-container {
+      padding-top: 1rem;
+    }
   }
   .library-nav {
     // position: static;
