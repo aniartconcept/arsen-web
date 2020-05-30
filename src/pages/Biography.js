@@ -30,14 +30,14 @@ const Biography = () => {
       {data ? (
         <section className="section-light bio-items-section">
           <div className="bio-items">
-            <div className="bio-item">
+            <div className="bio-item item-inverse">
               <div className="item-number">01</div>
               <div className="item-title">{data.composer.title[lng]}</div>
-              <div className="item-content-wrapper">
-                <div className="item-content" dangerouslySetInnerHTML={{ __html: data.composer.content[lng] }}></div>
-              </div>
-              <div className="item-image-wrapper top-left">
+              <div className="item-image-wrapper top-right">
                 <img src={Image1} className="item-image" alt="composer" />
+              </div>
+              <div className="item-content-wrapper ">
+                <div className="item-content" dangerouslySetInnerHTML={{ __html: data.composer.content[lng] }}></div>
               </div>
             </div>
             <div className="bio-item item-inverse">

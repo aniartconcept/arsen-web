@@ -8,7 +8,7 @@ export default [
       hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
       ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
     },
-    url: '/highlights/detail'
+    url: '/highlights/citedesarts'
   },
   {
     date: '2019-04-17',
@@ -19,7 +19,7 @@ export default [
       hy: 'Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.',
       ru: 'Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.'
     },
-    url: 'https://www.pinakothek.de/caravaggisti'
+    url: '/highlights/caravaggio'
   },
   {
     date: '2019-04-06',

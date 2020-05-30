@@ -18,7 +18,7 @@ const ArticleEvents = ({ data, onClick }) => {
       {/*  <span>{data.title[i18n.language]}</span>*/}
       {/*</h5>*/}
       <div className="article-thumb" onClick={handleClick}>
-          <i className="icon icon-insta events-icon"></i>
+          <i className="icon icon-album events-icon"></i>
           <Image src={process.env.PUBLIC_URL + data.thumb} alt="" />
       </div>
       <div className="article-body">
