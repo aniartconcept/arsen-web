@@ -1,5 +1,39 @@
 [
   {
+    "id": 0,
+    "type": "VIDEO",
+    "date": "2020-05-16",
+    "url": "https://www.youtube.com/watch?v=c5NhJuvMufQ&list=UUi-4vpJzx9gi1ERtj_EmfaA",
+    "thumb": "/gallery/recordings/recording-10.jpg",
+    "name": {
+      "en": "»Bilderkette aus der Vergangenheit« (2014)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for solo violin <b><br> 1. Grüße vom Heiligen Grigor <br> 2. Dürers Selbstbildnis im Pelzrock <br>3. »St. Martin und der Bettler« von Miguel Ximénez \n(Der Soldat, der träumte Mönch zu werden) <br>4. Bilderkette aus der Vergangenheit <br>5. Dam<br>6. St. Patrick und die Piraten\n <br><br> Performer: Martin Yavryan (violin) <br>World premiere recording <br>University of Music and Performing Arts Munich, Big Concert Hall. <br> Munich, 2014",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 11,
+    "type": "VIDEO",
+    "date": "2020-03-20",
+    "url": "https://www.youtube.com/watch?v=ywa0Oxv2akI",
+    "thumb": "/gallery/recordings/recording-11.jpg",
+    "name": {
+      "en": "\"7 Miniatures\" (2012 - 2013)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for piano <br>Miniature 1 | 00:12 <br> Miniature 2 | 01:52 <br> Miniature 3 (Hommage à Paweł Mykietyn) | 02:36 <br>Miniature 4 | 03:45 <br> Miniature 5 | 05:05 <br> Miniature 6 (\"Unreal Bells\") | 06:15 <br> Miniature 7 (\"Ich kehre nach Hause zurück...\") | 08:00 <br><br> Performer: Lusine Khachikyan (piano) <br> Recorded in Komitas Museum-Institute\n <br> Yerevan, 2020",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
     "id": 1,
     "type": "VIDEO",
     "date": "2019-04-16",
