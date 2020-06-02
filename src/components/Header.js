@@ -4,7 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 
 import { useTranslation } from 'react-i18next';
 
-import LangSwitch from './LangSwitch';
+// // import LangSwitch from './LangSwitch';
 import SocialLinks from './SocialLinks';
 
 const Header = () => {
@@ -35,7 +35,7 @@ const Header = () => {
       <CSSTransition in={show} timeout={{ enter: 1200, exit: 1200 }} unmountOnExit classNames="fade">
         <div className="header-menu">
           <div className="header-menu-backdrop" onClick={closeMenu} />
-          <LangSwitch />
+          {/* <LangSwitch /> */}
           <ul className="header-nav">
             <li className="nav-item">
               <NavLink className="nav-link" to="/" onClick={closeMenu} exact>

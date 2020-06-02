@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-const languages = [{ key: 'en', label: 'EN' }/*, { key: 'de', label: 'DE' } /*, { key: 'hy', label: 'ARM' }, { key: 'ru', label: 'RU' }*/];
+const languages = [{ key: 'en', label: 'EN' }];
 
 const LangSwitch = () => {
   const { i18n } = useTranslation();
@@ -13,9 +13,9 @@ const LangSwitch = () => {
     <ul className="lang-switch">
       {languages.map(({ key, label }) => (
         <li key={key}>
-          {/*<button className={`unstyled ${i18n.language === key ? 'active' : ''}`} onClick={() => changeLanguage(key)}>*/}
-          {/*  {label}*/}
-          {/*</button>*/}
+          <button className={`unstyled ${i18n.language === key ? 'active' : ''}`} onClick={() => changeLanguage(key)}>
+            {label}
+          </button>
         </li>
       ))}
     </ul>

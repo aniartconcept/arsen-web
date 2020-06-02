@@ -1,7 +1,7 @@
 .bio-section-hero {
   justify-content: flex-start;
   overflow: hidden;
-
+  min-height: 600px;
   .section-caption {
     max-width: 25%;
     margin-left: 8.59%;
@@ -299,14 +299,19 @@
     margin-top: 1.5rem;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .bio-section-hero {
+    height: auto;
+    flex-direction: column;
     &:after,
     &:before {
       display: none;
     }
     .section-title {
       z-index: 10;
+      &:before {
+        width: 60vh;
+      }
     }
     .hero-section-desc {
       background: none;
@@ -315,19 +320,26 @@
       position: relative;
       z-index: 20;
       width: 100%;
-      padding: 0 $section-gutter;
+      padding: $section-gutter;
       max-width: 100%;
       margin: 0;
-      h1 {
-        font-size: 2.2rem;
+
+      p {
+        margin: 0;
       }
     }
     .section-image {
-      left: 0;
-      z-index: 1;
-      box-shadow: inset 0 100vh 0 rgba(0, 0, 0, 0.5);
+      // left: 0;
+      // z-index: 1;
+      // box-shadow: inset 0 300vh 0 rgba(0, 0, 0, 0.7);
+      position: static;
+      order: -1;
+      padding-bottom: 75%;
+      width: 100%;
     }
   }
+}
+@media screen and (max-width: 767px) {
   .bio-items-section {
     padding: 0 1.5rem 3rem;
     .bio-items {
