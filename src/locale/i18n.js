@@ -12,7 +12,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { translations: en },
+      en: { translations: en }
       //ru: { translations: ru },
       //hy: { translations: hy },
       //de: { translations: de }
