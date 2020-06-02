@@ -25,7 +25,7 @@ i18n
     }
   });
 if (i18n.language.includes('-')) {
-  i18n.changeLanguage(i18n.language.split('-')[0]);
+  //i18n.changeLanguage(i18n.language.split('-')[0]);
 }
 
 export default i18n;

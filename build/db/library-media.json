@@ -1,9 +1,9 @@
 [
   {
     "thumb": "/gallery/media/media_1.jpg",
-    "short": { "en": "Making of \"Die Kreuzigung Christi\"", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
-    "title": { "en": "Alte Pinakothek", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
-    "buttontxt": { "en": "Watch", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "short": { "en": "Making of \"Die Kreuzigung Christi\"", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
+    "title": { "en": "Alte Pinakothek", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
       "en": "Short film about \"Die Kreuzigung Christi\" composition written for \"UTRECHT, CARAVAGGIO UND EUROPA\" exhibition. (in German) <br><br>Munich | Alte Pinakothek | 17.4.–21.7.2019\n  ",

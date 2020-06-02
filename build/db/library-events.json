@@ -1,7 +1,7 @@
 [
   {
     "thumb": "/gallery/events/event_3.jpg",
-    "title": { "en": "Premiere of String Quartet No. 5", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "title": { "en": "Premiere of String Quartet No. 5", "de": "Premiere of String Quartet No. 5", "ru": "rus Lorem ipsum" },
     "images": [{ "path": "/gallery/events/events_3.jpg" }, { "path": "/gallery/events/events_3_1.jpg" }, { "path": "/gallery/events/events_3_2.jpg" },
       { "path": "/gallery/events/events_3_3.jpg" }, { "path": "/gallery/events/events_3_4.jpg" }, { "path": "/gallery/events/events_3_5.jpg" },
       { "path": "/gallery/events/events_3_6.jpg" }, { "path": "/gallery/events/events_3_7.jpg" }, { "path": "/gallery/events/events_3_8.jpg" },
@@ -15,7 +15,7 @@
     "url": "https://www.spielfeld-klassik.de/zeit-fuers-konzert/konzerte/2019/11/3697.html?tx_mphilconcerts_mphilcal%5Bsaison%5D%5B0%5D=2019&tx_mphilconcerts_mphilcal%5Bsaison%5D%5B1%5D=2020&tx_mphilconcerts_mphilkalender%5Baction%5D=show&tx_mphilconcerts_mphilkalender%5Bcontroller%5D=Konzerttermin&cHash=f099f847955b3da5f3af8f3319196da9"
   },{
     "thumb": "/gallery/events/events_1.jpg",
-    "title": { "en": "Portrait concert", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Portrait concert", "de": "Portrait concert", "ru": "rus goodbye, bird" },
     "images": [{ "path": "/gallery/events/events_1.jpg" }, { "path": "/gallery/events/events_1_1.jpg" }, { "path": "/gallery/events/events_1_3.jpg" }],
     "desc": {
       "en": "Arsen Babajanyan’s portrait concert in Auditorium of Cité internationale des arts (Paris). The chamber music works were interpreted by guest musicians. <br><br> Paris | October 28, 2019\n",
@@ -27,11 +27,11 @@
   },
   {
     "thumb": "/gallery/events/events_2.jpg",
-    "title": { "en": "Performance of \"7 miniatures\"", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "title": { "en": "Performance of \"7 miniatures\"", "de": "Performance of \"7 miniatures\"", "ru": "Die Kreuzigung Christi" },
     "images": [{ "path": "/gallery/events/events_2.jpg" }, { "path": "/gallery/events/events_2_1.jpg" }],
     "desc": {
       "en": "Arsen Babajanyan's \"7 miniatures\" (for piano) was performed by Jelena Stojkovic once again in Munich. <br><br> Gasteig, Munich | September 22, 2019",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "de": "Arsen Babajanyan's \"7 miniatures\" (for piano) was performed by Jelena Stojkovic once again in Munich. <br><br> Gasteig, Munich | September 22, 2019",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://en.gasteig.de/events/jelena-stojkovi-piano-recital-roses-of-east-.html,v59204"
@@ -39,25 +39,25 @@
 
   {
     "thumb": "/gallery/events/events_4.jpg",
-    "title": { "en": "UTRECHT, CARAVAGGIO and EUROPE", "hy": "arm dolor sit amet", "ru": "rus dolor sit amet" },
+    "title": { "en": "UTRECHT, CARAVAGGIO and EUROPE", "de": "UTRECHT, CARAVAGGIO and EUROPE", "ru": "rus dolor sit amet" },
     "images": [{ "path": "/gallery/events/events_4.jpg" }, { "path": "/gallery/events/events_4_1.jpg" }, { "path": "/gallery/events/events_4_2.jpg" },
       { "path": "/gallery/events/events_4_3.jpg" }, { "path": "/gallery/events/events_4_4.jpg" }, { "path": "/gallery/events/events_4_5.jpg" },
       { "path": "/gallery/events/events_4_6.jpg" }, { "path": "/gallery/events/events_4_7.jpg" }, { "path": "/gallery/events/events_4_8.jpg" },
       { "path": "/gallery/events/events_4_9.jpg" }],
     "desc": {
       "en": "Arsen Babajanyan composed music for 11 pictures from \"UTRECHT, CARAVAGGIO and EUROPE\" exhibition organized by Alte Pinakothek. <br><br>Munich | April 17, 2019 - July 21, 2019",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "de": "Arsen Babajanyan composed music for 11 pictures from \"UTRECHT, CARAVAGGIO and EUROPE\" exhibition organized by Alte Pinakothek. <br><br>Munich | April 17, 2019 - July 21, 2019",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": "https://artsandculture.google.com/asset/audioguide-arsen-babajanyan-die-kreuzigung-christi-pinacaravaggisti/OQH2-lzaOt0Ltg"
   },
   {
     "thumb": "/gallery/events/events_8_1.jpg",
-    "title": { "en": "Visual Arts in Music", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "title": { "en": "Visual Arts in Music", "de": "Visual Arts in Music", "ru": "Die Kreuzigung Christi" },
     "images": [{ "path": "/gallery/events/events_8_1.jpg" }],
     "desc": {
       "en": "Seminar - Listening Session with Arsen Babajanyan in Yerevan State College of Fine Arts after Panos Termelezyan <br><br> Yerevan | March 05, 2019",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "de": "Seminar - Listening Session with Arsen Babajanyan in Yerevan State College of Fine Arts after Panos Termelezyan <br><br> Yerevan | March 05, 2019",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": ""
@@ -65,21 +65,21 @@
 
   {
     "thumb": "/gallery/events/event_6.jpg",
-    "title": { "en": "Award - Fridtjof Nansen", "hy": "Die Kreuzigung Christi", "ru": "Die Kreuzigung Christi" },
+    "title": { "en": "Award - Fridtjof Nansen", "de": "Award - Fridtjof Nansen", "ru": "Die Kreuzigung Christi" },
     "images": [{ "path": "/gallery/events/events_6.jpg" }, { "path": "/gallery/events/events_5_1.jpg" }, { "path": "/gallery/events/events_5_2.jpg" }],
     "desc": {
       "en": "Arsen Babajanyan has been awarded the Fridtjof Nansen Gold Commemorative Medal for the activities towards establishing humanitarian principles and condemnation of the Armenian Genocide <br><br>Yerevan | 2018",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "de": "Arsen Babajanyan has been awarded the Fridtjof Nansen Gold Commemorative Medal for the activities towards establishing humanitarian principles and condemnation of the Armenian Genocide <br><br>Yerevan | 2018",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": ""
   },
   {
     "thumb": "/gallery/events/event_7.jpg",
-    "title": { "en": "Composition Award", "hy": "arm Lorem ipsum", "ru": "rus Lorem ipsum" },
+    "title": { "en": "Composition Award", "de": "Composition Award", "ru": "rus Lorem ipsum" },
     "desc": {
       "en": "Arsen Babajanyan received 3rd Prize for Composition in Felix Mendelssohn Bartholdy Conservatory Competition <br><br> Berlin | 2018",
-      "hy": "",
+      "de": "Arsen Babajanyan received 3rd Prize for Composition in Felix Mendelssohn Bartholdy Conservatory Competition <br><br> Berlin | 2018",
       "ru": ""
     },
     "images": [{ "path": "/gallery/events/events_7.jpg" }, { "path": "/gallery/events/events_6_1.jpg" },
@@ -88,11 +88,11 @@
   },
   {
     "thumb": "/gallery/events/event_5.jpg",
-    "title": { "en": "Portrait Concert", "hy": "arm goodbye, bird", "ru": "rus goodbye, bird" },
+    "title": { "en": "Portrait Concert",  "de": "Portrait Concert", "ru": "rus goodbye, bird" },
     "images": [{ "path": "/gallery/events/event_5.jpg" }],
     "desc": {
       "en": "Arsen Babajanyan's graduation concert in Munich. Compositions were performed by talented Munich based musicians. <br><br>Munich | 09.02.2018",
-      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "de": "Arsen Babajanyan's graduation concert in Munich. Compositions were performed by talented Munich based musicians. <br><br>Munich | 09.02.2018",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
     "url": ""
