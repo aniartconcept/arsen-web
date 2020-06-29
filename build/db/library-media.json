@@ -1,5 +1,18 @@
 [
   {
+    "thumb": "/gallery/media/media-19.jpg",
+    "short": { "en": "Interview on Public Radio of Armenia", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
+    "title": { "en": "Freelance artists problems during the COVID 19", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
+    "type": "video",
+    "desc": {
+      "en": "During the “Vernatun” program in Armenian Public Radio, Arsen Babajanyan is talking about the importance of regulation mechanisms for artists duing the COVID-19. (in Armenian) <br><br> Yerevan, Armenia, 2020",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "https://www.youtube.com/watch?v=WRTtpVoHfMU"
+  },
+  {
     "thumb": "/gallery/media/media_1.jpg",
     "short": { "en": "Making of \"Die Kreuzigung Christi\"", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
     "title": { "en": "Alte Pinakothek", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },

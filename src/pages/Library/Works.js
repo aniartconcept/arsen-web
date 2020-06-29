@@ -4,7 +4,7 @@ import i18n from 'locale/i18n';
 import { useTranslation } from 'react-i18next';
 import { animateScroll as scroll } from 'react-scroll';
 
-const workTypes = ['ORCHESTRA', 'ENSAMBLE', 'CHAMBER', 'CYCLES', 'SOLO', 'POIEMA', 'OTHER'];
+const workTypes = ['ORCHESTRA', 'ENSAMBLE', 'CHAMBER', 'POIEMA', 'CYCLES', 'SOLO',  'OTHER'];
 
 const Works = () => {
   const { t } = useTranslation();

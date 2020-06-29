@@ -31,9 +31,20 @@ const HighlightsDetailComponentThird = () => {
                 <section className="section-light bio-items-section">
                     <div className="bio-items">
                         <div className="higlight-item">
-                            <div className="item-title">{data.composer.title[lng]}</div>
+                            <div className="item-title detail-item-title">{data.composer.title[lng]}</div>
                             <div className="item-content-wrapper">
                                 <div className="item-content" dangerouslySetInnerHTML={{ __html: data.composer.content[lng] }}></div>
+                                <ul className="highlight-social-section">
+                        <li>
+                        <a href="https://www.pinakothek.de/caravaggisti" target="_blank" rel="noopener noreferrer">
+                        <i className="icon icon-web"></i></a>
+                        </li>
+                        <li>
+                        <a href="https://www.youtube.com/watch?v=Bw5EZM6GIPU" target="_blank" rel="noopener noreferrer">
+                        <i className="icon icon-youtube"></i>
+                        </a>
+                        </li>
+                        </ul>
                             </div>
                             <div className="item-image-wrapper top-left">
                                 <img src={Image1} className="item-image" alt="composer" />

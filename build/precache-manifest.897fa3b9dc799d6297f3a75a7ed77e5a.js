@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80528e0598e7412bbb01c3b94eca619c",
+    "revision": "9a49996349ec178db885f85298e36ddd",
     "url": "/index.html"
   },
   {
-    "revision": "1b46942e2d9472891466",
-    "url": "/static/css/2.995fd7aa.chunk.css"
+    "revision": "f84c9016a528863b23b5",
+    "url": "/static/css/2.366b4564.chunk.css"
   },
   {
-    "revision": "969a0e5d104d9023c874",
-    "url": "/static/css/main.b17ddc65.chunk.css"
+    "revision": "85b0bab1f6d5501d6e0c",
+    "url": "/static/css/main.6763a31a.chunk.css"
   },
   {
-    "revision": "1b46942e2d9472891466",
-    "url": "/static/js/2.5faaa017.chunk.js"
+    "revision": "f84c9016a528863b23b5",
+    "url": "/static/js/2.56bac939.chunk.js"
   },
   {
-    "revision": "969a0e5d104d9023c874",
-    "url": "/static/js/main.7555838c.chunk.js"
+    "revision": "291e0d2bc65cd0d19fff9204b8020a70",
+    "url": "/static/js/2.56bac939.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43e3964ef008232d38a7",
-    "url": "/static/js/runtime-main.46f7f855.js"
+    "revision": "85b0bab1f6d5501d6e0c",
+    "url": "/static/js/main.1dfa67c3.chunk.js"
+  },
+  {
+    "revision": "3f8cb30a230e34b8afd2",
+    "url": "/static/js/runtime-main.aca15ff3.js"
   },
   {
     "revision": "38fcc18e4b322c3599d695a21a779168",
@@ -68,12 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bio-6@2x.030a6f70.jpg"
   },
   {
-    "revision": "6d5f7ac23d717e9bf8ab2cdc1a5f4a8d",
-    "url": "/static/media/fonticons.6d5f7ac2.woff"
+    "revision": "43b932a630175c3aa9feda99272ae384",
+    "url": "/static/media/fonticons.43b932a6.woff"
   },
   {
-    "revision": "6d5f7ac23d717e9bf8ab2cdc1a5f4a8d",
-    "url": "/static/media/fonticons.6d5f7ac2.woff2"
+    "revision": "43b932a630175c3aa9feda99272ae384",
+    "url": "/static/media/fonticons.43b932a6.woff2"
+  },
+  {
+    "revision": "45848fb155c7eadbd70ecd8d8f51b115",
+    "url": "/static/media/gb-highlight.45848fb1.jpg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",

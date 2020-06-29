@@ -84,7 +84,7 @@
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for Armenian Viola solo, Soprano saxophone, Bass zither, Accordion, Piano and Percussion",
+      "en": "for Armenian Viola solo, Soprano Saxophone, Bass Zither, Accordion, Piano and Percussion",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -159,7 +159,7 @@
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for 2 Zithers, Dulcimer, diatonic Accordion, Harp, Piano, Clarinet, Violin",
+      "en": "for 2 Zithers, Dulcimer, Diatonic Accordion, Harp, Piano, Clarinet, Violin",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -501,7 +501,7 @@
     "type": "CYCLES",
     "date": "2017",
     "name": {
-      "en": "Cycle for soprano Saxophone and Accordion (2017)",
+      "en": "Cycle for Soprano Saxophone and Accordion (2017)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
@@ -542,6 +542,21 @@
     }
   },
   {
+    "id": 54,
+    "type": "CYCLES",
+    "date": "2010",
+    "name": {
+      "en": "Cycle for Violin and Piano (2012/2013)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
     "id": 38,
     "type": "CYCLES",
     "date": "2011",
@@ -557,26 +572,11 @@
     }
   },
   {
-    "id": 54,
-    "type": "CYCLES",
-    "date": "2010",
-    "name": {
-      "en": "Cycle for Violin and Piano (2010)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
     "id": 39,
     "type": "CYCLES",
     "date": "2010/2013",
     "name": {
-      "en": "Cycle for French Horn, Piano and Double bass (2010/2013)",
+      "en": "Cycle for French Horn, Piano and Double Bass (2010/2013)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },

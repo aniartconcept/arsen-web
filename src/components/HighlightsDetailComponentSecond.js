@@ -31,10 +31,20 @@ const HighlightsDetailComponent = () => {
                 <section className="section-light bio-items-section">
                     <div className="bio-items">
                         <div className="higlight-item">
-                            <div className="item-title">{data.composer.title[lng]}</div>
+                            <div className="item-title detail-item-title">{data.composer.title[lng]}</div>
                             <div className="item-content-wrapper">
                                 <div className="item-content" dangerouslySetInnerHTML={{ __html: data.composer.content[lng] }}></div>
-                                <a href="https://www.youtube.com/watch?v=R190TPqab80&amp;t=6s"  className="highlight-action" target="_blank" rel="noopener noreferrer">More Links</a>
+                                <ul className="highlight-social-section">
+                        <li>
+                        <a href="https://www.facebook.com/photo.php?fbid=10217282029660143&set=a.10211958702900301&type=3&theater" target="_blank" rel="noopener noreferrer">
+                        <i className="icon icon-facebook"></i></a>
+                        </li>
+                        <li>
+                        <a href="https://www.citedesartsparis.net/en/concert-arsen-babajanyan-portrait-of-composer" target="_blank" rel="noopener noreferrer">
+                        <i className="icon icon-web"></i>
+                        </a>
+                        </li>
+                        </ul>
                             </div>
                             <div className="item-image-wrapper top-left">
                                 <img src={Image1} className="item-image" alt="composer" />
