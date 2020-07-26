@@ -35,10 +35,10 @@ const HighlightsDetailComponent = () => {
                             <div className="item-content-wrapper">
                                 <div className="item-content" dangerouslySetInnerHTML={{ __html: data.composer.content[lng] }}></div>
                                 <ul className="highlight-social-section">
-                        <li>
+                        {/* <li>
                         <a href="https://www.facebook.com/photo.php?fbid=10217282029660143&set=a.10211958702900301&type=3&theater" target="_blank" rel="noopener noreferrer">
                         <i className="icon icon-facebook"></i></a>
-                        </li>
+                        </li> */}
                         <li>
                         <a href="https://www.citedesartsparis.net/en/concert-arsen-babajanyan-portrait-of-composer" target="_blank" rel="noopener noreferrer">
                         <i className="icon icon-web"></i>

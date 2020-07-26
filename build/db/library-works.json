@@ -205,7 +205,7 @@
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
     "desc": {
-      "en": "for wind quintet and piano",
+      "en": "for wind quintet and Piano",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -421,23 +421,9 @@
       "ru": "Rus For Big Orchestra"
     }
   },
+  
   {
     "id": 29,
-    "type": "CHAMBER",
-    "date": "2006",
-    "name": {
-      "en": "Sonata for Cello and Piano (2006)",
-      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
-      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
-    },
-    "desc": {
-      "en": "",
-      "hy": "Arm For Big Orchestra",
-      "ru": "Rus For Big Orchestra"
-    }
-  },
-  {
-    "id": 30,
     "type": "CHAMBER",
     "date": "2008",
     "name": {
@@ -452,7 +438,7 @@
     }
   },
   {
-    "id": 31,
+    "id": 30,
     "type": "CHAMBER",
     "date": "2007",
     "name": {
@@ -462,6 +448,21 @@
     },
     "desc": {
       "en": "for Violin and Piano",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 31,
+    "type": "CHAMBER",
+    "date": "2006",
+    "name": {
+      "en": "Sonata for Cello and Piano (2006)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -546,7 +547,7 @@
     "type": "CYCLES",
     "date": "2010",
     "name": {
-      "en": "Cycle for Violin and Piano (2012/2013)",
+      "en": "Cycle for Violin and Piano (2012)",
       "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
       "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
     },
