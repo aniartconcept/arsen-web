@@ -184,6 +184,7 @@
   position: relative;
   padding-left: 5rem;
   @media screen and (min-width: 768px) {
+          
     &.item-inverse {
       padding-left: 0;
       padding-right: 5rem;
@@ -210,6 +211,9 @@
           margin-left: auto;
           margin-right: auto;
         }
+      }
+      .item-content-wrapper {
+        margin-top: 5rem;
       }
       .item-image-wrapper {
         width: 37.93vw;
@@ -370,6 +374,32 @@
   }
 
   .bio-item {
+    padding-top: 4rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+    .item-title {
+      position: static;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .item-number {
+      top: 3.7rem;
+      font-size: 2rem;
+    }
+    .item-image-wrapper {
+      order: 5;
+      width: 100%;
+      padding: 0 !important;
+      margin: 1rem 0 0 !important;
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  .higlight-item {
     padding-top: 4rem;
     flex-direction: column;
     justify-content: flex-start;
