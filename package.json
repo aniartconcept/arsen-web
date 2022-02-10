@@ -13,7 +13,7 @@
     "i18next": "^19.0.0",
     "i18next-browser-languagedetector": "^4.0.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.11.0",
     "react-div-100vh": "^0.3.8",
     "react-dom": "^16.11.0",
