@@ -1,5 +1,39 @@
 [
   {
+    "id": 13,
+    "type": "VIDEO",
+    "date": "2023-10-31",
+    "url": "https://www.youtube.com/playlist?list=PLuV-npsFjjw1tJPcEIU6v0ywZ7s36y538",
+    "thumb": "/gallery/recordings/recordings-13.jpg",
+    "name": {
+      "en": "»Mein seelenverlassener Körper« für dic für Frauenstimme, Flöte und Klavier",
+      "ru": "»Mein seelenverlassener Körper« für dic für Frauenstimme, Flöte und Klavier",
+      "hy": "»Mein seelenverlassener Körper« für dic für Frauenstimme, Flöte und Klavier"
+    },
+    "desc": {
+      "en": "Text by Konstandin Yersnkatsi (XIII Jh.) <br><br> Tatevik Movsesyan (vocal) <br> Narek Avagyan (flute) <br>Anahit Dilbaryan (piano) <br><br> 2. Prize by \"Mansurian\" International Competition for Composition, Yerevan, Armenia, 2023",
+      "hy": "Text von Konstandin Yersnkatsi (XIII Jh.) <br> Tatevik Movsesyan - Gesang <br> Narek Avagyan - Flöte <br>Anahit Dilbaryan - Klavier <br> 2. Prize by \"Mansurian\" International Competition for Composition, Yerevan, Armenia, 2023",
+      "ru": "Text von Konstandin Yersnkatsi (XIII Jh.) <br> Tatevik Movsesyan - Gesang <br> Narek Avagyan - Flöte <br>Anahit Dilbaryan - Klavier <br> 2. Prize by \"Mansurian\" International Competition for Composition, Yerevan, Armenia, 2023"
+    }
+  },
+  {
+    "id": 12,
+    "type": "VIDEO",
+    "date": "2023-04-12",
+    "url": "https://www.youtube.com/playlist?list=PLuV-npsFjjw1tJPcEIU6v0ywZ7s36y538",
+    "thumb": "/gallery/recordings/recordings-12.jpg",
+    "name": {
+      "en": "»Skizzen für Katharina« für Klavier solo, Heft 1«",
+      "hy": "»Skizzen für Katharina« für Klavier solo, Heft 1",
+      "ru": "»Skizzen für Katharina« für Klavier solo, Heft 1"
+    },
+    "desc": {
+      "en": "1. Skizze I (morning glory) <br> 2. Zufällige Begegnung <br> 3. Skizze II <br> 4. Skizze III <br> 5. Skizze IV6. A little Lament in a - moll <br><br> Performer: Lusine Khachikyan (piano) <br> Yerevan, 2023",
+      "ru": "Lusine Khachikyan - Klavier <br> 1. Skizze I (morning glory) <br> 2. Zufällige Begegnung <br> 3. Skizze II <br> 4. Skizze III <br> 5. Skizze IV6. A little Lament in a - moll",
+      "hy": "Lusine Khachikyan - Klavier <br> 1. Skizze I (morning glory) <br> 2. Zufällige Begegnung <br> 3. Skizze II <br> 4. Skizze III <br> 5. Skizze IV6. A little Lament in a - moll"
+    }
+  },
+  {
     "id": 0,
     "type": "VIDEO",
     "date": "2020-05-16",
