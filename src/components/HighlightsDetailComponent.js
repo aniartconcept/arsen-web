@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import i18n from 'locale/i18n';
 
-import Image1 from 'assets/img/highlights/gb-highlight.jpg';
+import Image1 from 'assets/img/highlights/highlight-1.PNG';
 import Image2 from 'assets/img/bio/bio-3@2x.jpg';
 import Image3 from 'assets/img/bio/bio-6@2x.jpg';
 import Image4 from 'assets/img/bio/bio-1@2x.jpg';
