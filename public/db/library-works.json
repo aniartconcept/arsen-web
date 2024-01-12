@@ -75,6 +75,21 @@
     }
   },
   {
+    "id": 55,
+    "type": "ENSAMBLE",
+    "date": "2020",
+    "name": {
+      "en": "\"Pastorale\" for Ensemble (2020)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
     "id": 23,
     "type": "ENSAMBLE",
     "date": "2017",
@@ -164,7 +179,22 @@
       "ru": "Rus For Big Orchestra"
     }
   },
-
+  
+  {
+    "id": 62,
+    "type": "POIEMA",
+    "date": "2020",
+    "name": {
+      "en": "Poiema V for Saxophone Octet, Piano and Percussion (2019-2020)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
   {
     "id": 9,
     "type": "POIEMA",
@@ -236,6 +266,82 @@
     },
     "desc": {
       "en": "for 11 instruments",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+
+  {
+    "id": 58,
+    "type": "CHAMBER",
+    "date": "2023",
+    "name": {
+      "en": "\"Neither...Nor...\" for Accordion and String Trio (2023)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 59,
+    "type": "CHAMBER",
+    "date": "2023",
+    "name": {
+      "en": "“Mein seelenverlassener Körper für dich...” for Female Voice, Flute and Piano (2023)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 60,
+    "type": "CHAMBER",
+    "date": "2022",
+    "name": {
+      "en": "Two pieces for Cello and Piano (2022)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 62,
+    "type": "CHAMBER",
+    "date": "2022",
+    "name": {
+      "en": "Studien for two Violins and Viola (2022)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
+  {
+    "id": 63,
+    "type": "CHAMBER",
+    "date": "2021",
+    "name": {
+      "en": "Sharakans for 2 Violins (2021)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "",
       "hy": "Arm For Big Orchestra",
       "ru": "Rus For Big Orchestra"
     }
@@ -603,6 +709,21 @@
     }
   },
 
+  {
+    "id": 57,
+    "type": "SOLO",
+    "date": "2021",
+    "name": {
+      "en": "\"Sketches for Katharina\" for Piano solo, Book 2 (2020-2021)",
+      "hy": "Flourishing Flowers and Prelude to the Revelry of the Gecko ",
+      "ru": "Flourishing Flowers and Prelude to the Revelry of the Gecko "
+    },
+    "desc": {
+      "en": "for piano solo",
+      "hy": "Arm For Big Orchestra",
+      "ru": "Rus For Big Orchestra"
+    }
+  },
   {
     "id": 43,
     "type": "SOLO",
