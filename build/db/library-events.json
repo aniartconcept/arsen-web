@@ -1,5 +1,41 @@
 [
   {
+    "thumb": "/gallery/highlights/highlight-1.jpg",
+    "title": { "en": "Neither...Nor…", "de": "Premiere of String Quartet No. 5", "ru": "rus Lorem ipsum" },
+    "images": [{ "path": "/gallery/highlights/highlight-1.jpg" }],
+
+    "desc": {
+      "en": "The composition \"Neither...Nor…\" won the first prize in the XVI. Francisco Escudero international competition. <br><br> Zarautz, Spain | 2023.",
+      "hy": "",
+      "ru": ""
+    },
+    "url": "https://hauspoz.org/international-composition-competition-francisco-escudero/"
+  },
+  {
+    "thumb": "/gallery/highlights/highlight-2.jpg",
+    "title": { "en": "Regensburg", "de": "Premiere of String Quartet No. 5", "ru": "rus Lorem ipsum" },
+    "images": [{ "path": "/gallery/highlights/highlight-2.jpg" }],
+
+    "desc": {
+      "en": "2nd Prize and the audience sympathy award in Regensburg Composition Competition 2023 <br><br> Regensburg, Germany | 2023.",
+      "hy": "",
+      "ru": ""
+    },
+    "url": "https://www.unternehmengegenwart.com/kompositionswettbewerb2023"
+  },
+  {
+    "thumb": "/gallery/highlights/highlight-3.jpg",
+    "title": { "en": "\"Mansurian\" Competition", "de": "Premiere of String Quartet No. 5", "ru": "rus Lorem ipsum" },
+    "images": [{ "path": "/gallery/highlights/highlight-3.jpg" }],
+
+    "desc": {
+      "en": "2nd prize in \"Mansurian\" Competition <br><br> Yerevan, Armenia | 2023.",
+      "hy": "",
+      "ru": ""
+    },
+   "url": "https://www.mansuriancompetition.org/winners"
+  },
+  {
     "thumb": "/gallery/events/event_3.jpg",
     "title": { "en": "Premiere of String Quartet No. 5", "de": "Premiere of String Quartet No. 5", "ru": "rus Lorem ipsum" },
     "images": [{ "path": "/gallery/events/events_3.jpg" }, { "path": "/gallery/events/events_3_1.jpg" }, { "path": "/gallery/events/events_3_2.jpg" },

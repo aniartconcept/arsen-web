@@ -1,12 +1,25 @@
 [
   {
+    "thumb": "/gallery/media/media-27.jpg",
+    "short": { "en": "Review by Hochschule für Musik und Theater München", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
+    "title": { "en": "About recent international competitions won by Arsen Babajanyan", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Read", "de": "Watch", "ru": "rus goodbye, bird" },
+    "type": "press-article",
+    "desc": {
+      "en": "An alumny of Hochschule für Musik und Theater München Arsen Babajanyan has won several prizes for his compositions in international competitions. (in German) <br><br> Munich, Germany, 2023",
+      "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
+      "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
+    },
+    "url": "https://hmtm.de/komponist-arsen-babajanyan-mehrfach-ausgezeichnet/"
+  },
+  {
     "thumb": "/gallery/media/media-23.jpg",
     "short": { "en": "About Jazz with Arsen Babajanyan", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
-    "title": { "en": "Conversations about jazz #24. Rima Tigranyan & Arsen Babajanyan", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "title": { "en": "Conversations about jazz #24. Rima Tigranyan & Arsen Babajanyan.", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
     "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
-      "en": "About the opera by Arsen Babajanyan in scope of Musical Triangle radio program",
+      "en": "About the opera by Arsen Babajanyan in scope of Musical Triangle radio program. (in Armenian) <br><br> Yerevan, Armenia, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -19,7 +32,7 @@
     "buttontxt": { "en": "Read", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "press-article",
     "desc": {
-      "en": "About the opera by Arsen Babajanyan in scope of Musical Triangle radio program",
+      "en": "About the opera by Arsen Babajanyan in scope of Musical Triangle radio progra. (in Armenian) <br><br> Yerevan, Armenia, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -32,7 +45,7 @@
     "buttontxt": { "en": "Read", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "press-article",
     "desc": {
-      "en": "About the opera by Arsen Babajanyan in scope of Musical Triangle radio program",
+      "en": "About the opera by Arsen Babajanyan in scope of Musical Triangle radio program. (in Armenian) <br><br> Yerevan, Armenia, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -41,11 +54,11 @@
   {
     "thumb": "/gallery/media/media-26.jpg",
     "short": { "en": "Interview with Arsen Babajanyan", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
-    "title": { "en": "Open Platform: About the culture and other aspects in interview with Arsen Babajanyan", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "title": { "en": "Open Platform: About the culture and other aspects in interview with Arsen Babajanyan ", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
     "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
-      "en": "An interview with Arsen Babajanyan about the political & not only aspects",
+      "en": "An interview with Arsen Babajanyan about the political & not only aspects.(in Armenian) <br><br> Yerevan, Armenia, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -58,7 +71,7 @@
     "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
-      "en": "An interview with Arsen Babajanyan about the political & not only aspects",
+      "en": "An interview with Arsen Babajanyan about the political & not only aspects. (in Armenian) <br><br> Yerevan, Armenia, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -67,11 +80,11 @@
   {
     "thumb": "/gallery/media/media-24.jpg",
     "short": { "en": "Interview with Arsen Babajanyan", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
-    "title": { "en": "Disappointment from the homeland has stabbed a knife in the back", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "title": { "en": "Disappointment from the homeland has stabbed a knife in the back ", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
     "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
     "type": "video",
     "desc": {
-      "en": "An interview with Arsen Babajanyan about the political & not only aspects",
+      "en": "An interview with Arsen Babajanyan about the political & not only aspects. (in Armenian) <br><br> Yerevan, Armenia, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
@@ -79,12 +92,12 @@
   },
   {
     "thumb": "/gallery/media/media-20.jpg",
-    "short": { "en": "Ein Rewiev von \"O-Ton Kulturmagazin\" über Konzertreihe »ALLES! ALLES LIEB‘ UND LEID, UND WELT, UND TRAUM«", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
-    "title": { "en": "Freelance artists problems during the COVID 19", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
-    "buttontxt": { "en": "Watch", "de": "Watch", "ru": "rus goodbye, bird" },
-    "type": "video",
+    "short": { "en": "Ein Rewiev von \"O-Ton Kulturmagazin\"", "de": "Making of \"Die Kreuzigung Christi\"", "ru": "rus goodbye, bird" },
+    "title": { "en": "Ein Rewiev von \"O-Ton Kulturmagazin\" über Konzertreihe »ALLES! ALLES LIEB‘ UND LEID, UND WELT, UND TRAUM« ", "de": "Alte Pinakothek", "ru": "rus goodbye, bird" },
+    "buttontxt": { "en": "Read", "de": "Watch", "ru": "rus goodbye, bird" },
+    "type": "press-article",
     "desc": {
-      "en": "/„Arsen Babajanyan hat die vier Lieder für Saxofone und Klavier arrangiert, und er hat hervorragende Arbeit geleistet.",
+      "en": "/„Arsen Babajanyan hat die vier Lieder für Saxofone und Klavier arrangiert, und er hat hervorragende Arbeit geleistet.(in German) <br><br> Munich, Germany, 2023",
       "hy": "Arm Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod.",
       "ru": "Rus Lorem ipsum dolor sit amet, consecteti adipiscing elit, sed do eiusmod."
     },
